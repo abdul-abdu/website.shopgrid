@@ -140,7 +140,7 @@ export default function Footer() {
         <div className="border-t border-border mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-muted-foreground text-sm">
-              © 2024 ShopGrid. All rights reserved.
+              © {new Date().getFullYear()} ShopGrid. All rights reserved.
             </p>
             <div className="flex items-center space-x-6 mt-4 md:mt-0">
               <Link href="/privacy" className="text-muted-foreground hover:text-foreground text-sm transition-colors">

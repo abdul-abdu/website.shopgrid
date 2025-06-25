@@ -93,24 +93,24 @@ export default function PricingPage() {
             
             {/* Billing Toggle */}
             <div className="flex items-center justify-center gap-4 mb-12">
-              <span className={`text-sm font-medium ${!isYearly ? 'text-foreground' : 'text-muted-foreground'}`}>
+              <span className={`text-sm font-medium transition-colors ${!isYearly ? 'text-foreground' : 'text-muted-foreground'}`}>
                 Monthly
               </span>
               <button
                 onClick={() => setIsYearly(!isYearly)}
-                className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors ${
-                  isYearly ? 'bg-primary' : 'bg-muted'
+                className={`relative inline-flex h-7 w-14 items-center rounded-full transition-all duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-primary/20 ${
+                  isYearly ? 'bg-primary shadow-lg' : 'bg-muted hover:bg-red'
                 }`}
               >
                 <span
-                  className={`inline-block h-4 w-4 transform rounded-full bg-white transition-transform ${
-                    isYearly ? 'translate-x-6' : 'translate-x-1'
+                  className={`inline-block h-5 w-5 transform rounded-full bg-white shadow-md transition-all duration-300 ease-in-out ${
+                    isYearly ? 'translate-x-8' : 'translate-x-1'
                   }`}
                 />
               </button>
-              <span className={`text-sm font-medium ${isYearly ? 'text-foreground' : 'text-muted-foreground'}`}>
+              <span className={`text-sm font-medium transition-colors ${isYearly ? 'text-foreground' : 'text-muted-foreground'}`}>
                 Yearly
-                <span className="ml-1 text-xs bg-primary text-primary-foreground px-2 py-1 rounded-full">
+                <span className="ml-2 text-xs bg-primary text-primary-foreground px-2 py-1 rounded-full font-medium">
                   Save 20%
                 </span>
               </span>
