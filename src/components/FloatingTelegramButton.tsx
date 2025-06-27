@@ -15,7 +15,7 @@ export default function FloatingTelegramButton() {
 
   const handleTelegramClick = () => {
     // Replace with actual Telegram Mini App URL
-    window.open('https://t.me/shopgrid_bot', '_blank');
+    window.open('https://t.me/shopgrid_lab_bot', '_blank');
   };
 
   if (!isVisible) return null;

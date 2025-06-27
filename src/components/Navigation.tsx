@@ -50,7 +50,7 @@ export default function Navigation() {
           {/* CTA Button */}
           <div className="hidden md:flex items-center space-x-4">
             <Link
-              href="https://t.me/shopgrid_bot"
+              href="https://t.me/shopgrid_lab_bot"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-primary text-primary-foreground px-4 py-2 rounded-lg text-sm font-medium hover:bg-primary/90 transition-colors"
@@ -109,7 +109,7 @@ export default function Navigation() {
                 </Link>
               ))}
               <Link
-                href="https://t.me/shopgrid_bot"
+                href="https://t.me/shopgrid_lab_bot"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block px-3 py-2 mt-4 bg-primary text-primary-foreground rounded-md text-base font-medium hover:bg-primary/90 transition-colors"

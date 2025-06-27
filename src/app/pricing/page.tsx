@@ -156,7 +156,7 @@ export default function PricingPage() {
                   </div>
                   
                   <Link
-                    href="https://t.me/shopgrid_bot"
+                    href="https://t.me/shopgrid_lab_bot"
                     target="_blank"
                     rel="noopener noreferrer"
                     className={`w-full py-3 px-6 rounded-lg font-semibold transition-colors inline-flex items-center justify-center gap-2 ${
@@ -309,7 +309,7 @@ export default function PricingPage() {
             Join thousands of businesses already using ShopGrid. Start your free trial today.
           </p>
           <Link
-            href="https://t.me/shopgrid_bot"
+            href="https://t.me/shopgrid_lab_bot"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-primary-foreground text-primary px-8 py-4 rounded-lg text-lg font-semibold hover:bg-primary-foreground/90 transition-colors inline-flex items-center gap-2"

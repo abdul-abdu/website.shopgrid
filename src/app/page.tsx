@@ -20,7 +20,7 @@ export default function HomePage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
-                href="https://t.me/shopgrid_bot"
+                href="https://t.me/shopgrid_lab_bot"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-primary text-primary-foreground px-8 py-4 rounded-lg text-lg font-semibold hover:bg-primary/90 transition-colors inline-flex items-center justify-center gap-2"
@@ -284,7 +284,7 @@ export default function HomePage() {
             Join thousands of businesses already using ShopGrid to sell their products directly through Telegram.
           </p>
           <Link
-            href="https://t.me/shopgrid_bot"
+            href="https://t.me/shopgrid_lab_bot"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-primary-foreground text-primary px-8 py-4 rounded-lg text-lg font-semibold hover:bg-primary-foreground/90 transition-colors inline-flex items-center gap-2"
