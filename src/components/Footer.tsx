@@ -20,7 +20,7 @@ export default function Footer() {
             </p>
             <div className="flex space-x-4">
               <Link
-                href="https://t.me/shopgrid_lab_bot"
+                href="https://t.me/shopgrid_bot"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
@@ -70,7 +70,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="https://t.me/shopgrid_lab_bot" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
+                <Link href="https://t.me/shopgrid_bot" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
                   Get Started
                 </Link>
               </li>

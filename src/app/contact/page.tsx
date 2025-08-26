@@ -303,7 +303,7 @@ export default function ContactPage() {
             Join thousands of businesses already using ShopGrid to sell on Telegram.
           </p>
           <Link
-            href="https://t.me/shopgrid_lab_bot"
+            href="https://t.me/shopgrid_bot"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-primary-foreground text-primary px-8 py-4 rounded-lg text-lg font-semibold hover:bg-primary-foreground/90 transition-colors inline-flex items-center gap-2"

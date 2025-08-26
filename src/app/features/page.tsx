@@ -31,16 +31,16 @@ export default function FeaturesPage() {
                 Telegram-First User Experience
               </h2>
               <p className="text-lg text-muted-foreground mb-6">
-                ShopGrid is designed from the ground up for Telegram's unique interface and user behavior. 
-                Your customers get a seamless shopping experience that feels native to the platform.
+                ShopGrid uses Telegram Web App SDK for native integration with features like main button controls, 
+                settings button, back button handling, and theme synchronization for optimal user experience.
               </p>
               <ul className="space-y-4">
                 {[
-                  'Native Telegram UI components and interactions',
-                  'Optimized for mobile-first Telegram users',
-                  'Seamless integration with Telegram channels and groups',
-                  'Instant notifications and order updates',
-                  'Built-in chat support for customer inquiries'
+                  'Native Telegram Web App components and hooks',
+                  'Main button integration for checkout actions',
+                  'Settings button and back button native handling',
+                  'Automatic theme synchronization with Telegram',
+                  'Responsive navigation optimized for mobile Telegram'
                 ].map((feature, index) => (
                   <li key={index} className="flex items-start gap-3">
                     <svg className="w-5 h-5 text-primary mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
@@ -80,12 +80,12 @@ export default function FeaturesPage() {
                 and analyze performance with real-time data and insights.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                {[
-                  { title: 'Order Management', desc: 'Process orders, update status, and manage fulfillment' },
-                  { title: 'Inventory Control', desc: 'Track stock levels and set up automatic alerts' },
-                  { title: 'Customer Database', desc: 'Manage customer information and purchase history' },
-                  { title: 'Sales Analytics', desc: 'Detailed reports on revenue, products, and trends' }
-                ].map((item, index) => (
+                              {[
+                { title: 'Order Management', desc: 'Process orders, update status, track pending/paid/shipped/cancelled orders with real-time updates' },
+                { title: 'Revenue Analytics', desc: 'Track total revenue, average order value, and financial performance with detailed breakdowns' },
+                { title: 'Customer Database', desc: 'Manage customer information and purchase history with multilingual support' },
+                { title: 'Product Performance', desc: 'View top-performing products, revenue tracking, and inventory insights' }
+              ].map((item, index) => (
                   <div key={index} className="bg-secondary p-4 rounded-lg">
                     <h3 className="font-semibold text-foreground mb-2">{item.title}</h3>
                     <p className="text-sm text-muted-foreground">{item.desc}</p>
@@ -118,7 +118,7 @@ export default function FeaturesPage() {
                   </svg>
                 ),
                 title: 'Smart Image Analysis',
-                description: 'Upload product photos and AI automatically identifies products, extracts features, and suggests optimal pricing.'
+                description: 'Upload product photos with automatic image optimization and CDN delivery for fast loading across all devices.'
               },
               {
                 icon: (
@@ -126,8 +126,8 @@ export default function FeaturesPage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
                   </svg>
                 ),
-                title: 'Auto Description Generation',
-                description: 'Generate compelling product descriptions, bullet points, and SEO-optimized content in seconds.'
+                title: 'Multilingual Product Support',
+                description: 'Create product listings with multilingual support (Uzbek, Russian, English) and rich formatting for descriptions.'
               },
               {
                 icon: (
@@ -158,16 +158,16 @@ export default function FeaturesPage() {
                 Instant Telegram Integration
               </h2>
               <p className="text-lg text-muted-foreground mb-6">
-                Connect your existing Telegram channel or group in seconds. No coding required, 
-                no complex setup - just link and start selling immediately.
+                Deep integration with Telegram's ecosystem including theme adaptation, bot integration, 
+                and native Telegram Web App features for seamless user experience.
               </p>
               <div className="space-y-4">
                 {[
-                  'One-click channel connection',
-                  'Automatic bot setup and configuration',
-                  'Customizable store appearance',
-                  'Real-time synchronization',
-                  'Multi-channel support'
+                  'Telegram Web App integration with native UI',
+                  'Automatic theme adaptation to user preferences',
+                  'Built-in Telegram invoice generation and payment',
+                  'Real-time order notifications and updates',
+                  'Multi-language support (Uzbek interface)'
                 ].map((feature, index) => (
                   <div key={index} className="flex items-center gap-3">
                     <div className="w-8 h-8 bg-primary text-primary-foreground rounded-full flex items-center justify-center text-sm font-bold">
@@ -179,7 +179,7 @@ export default function FeaturesPage() {
               </div>
               <div className="mt-8">
                 <Link
-                  href="https://t.me/shopgrid_lab_bot"
+                  href="https://t.me/shopgrid_bot"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-primary text-primary-foreground px-6 py-3 rounded-lg font-semibold hover:bg-primary/90 transition-colors inline-flex items-center gap-2"
@@ -215,20 +215,20 @@ export default function FeaturesPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
               {
-                title: 'Multiple Payment Methods',
-                description: 'Accept credit cards, digital wallets, and local payment options'
+                title: 'Uzbekistan Payment Systems',
+                description: 'Accept payments with Payme, Click, and cash on delivery options'
               },
               {
-                title: 'Automatic Invoicing',
-                description: 'Generate professional invoices with your branding automatically'
+                title: 'Telegram Invoice Generation',
+                description: 'Generate and send invoices directly through Telegram with automatic processing'
               },
               {
-                title: 'Secure Transactions',
-                description: 'Bank-level security with encryption and fraud protection'
+                title: 'Tax & Shipping Calculation',
+                description: 'Automatic calculation of taxes (15%) and shipping costs with order breakdown'
               },
               {
-                title: 'Financial Reports',
-                description: 'Track revenue, expenses, and profit margins with detailed reports'
+                title: 'Real-time Payment Processing',
+                description: 'Instant payment confirmation and order status updates through Telegram'
               }
             ].map((feature, index) => (
               <div key={index} className="bg-background p-6 rounded-lg border border-border text-center">
@@ -250,7 +250,7 @@ export default function FeaturesPage() {
             Start your free trial today and see how ShopGrid can transform your Telegram business.
           </p>
           <Link
-            href="https://t.me/shopgrid_lab_bot"
+            href="https://t.me/shopgrid_bot"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-primary-foreground text-primary px-8 py-4 rounded-lg text-lg font-semibold hover:bg-primary-foreground/90 transition-colors inline-flex items-center gap-2"

@@ -15,12 +15,12 @@ export default function HomePage() {
               <span className="text-primary">Telegram</span>
             </h1>
             <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto">
-              ShopGrid is a Telegram Mini App that lets small businesses sell products directly from their Telegram channels or groups. 
-              AI-powered product listings, invoice generation, and built-in payment support.
+              ShopGrid is a Telegram Mini App designed for the Uzbekistan market. Sell products directly from Telegram with Payme and Click payments, 
+              multilingual support (Uzbek/Russian/English), automatic tax calculation, and professional invoice generation.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
-                href="https://t.me/shopgrid_lab_bot"
+                href="https://t.me/shopgrid_bot"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-primary text-primary-foreground px-8 py-4 rounded-lg text-lg font-semibold hover:bg-primary/90 transition-colors inline-flex items-center justify-center gap-2"
@@ -49,7 +49,7 @@ export default function HomePage() {
               Everything you need to sell on Telegram
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Powerful features designed specifically for Telegram's ecosystem
+              Powerful features designed for Uzbekistan businesses using Telegram's ecosystem
             </p>
           </div>
           
@@ -79,8 +79,8 @@ export default function HomePage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
                   </svg>
                 ),
-                title: 'Built-in Payments',
-                description: 'Accept payments directly through Telegram with support for multiple payment methods and currencies.'
+                title: 'Uzbekistan Payment Systems',
+                description: 'Accept payments with Payme, Click, and cash on delivery. Integrated with local payment providers for seamless transactions.'
               },
               {
                 icon: (
@@ -88,8 +88,8 @@ export default function HomePage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                   </svg>
                 ),
-                title: 'Analytics Dashboard',
-                description: 'Track your sales, customer behavior, and product performance with detailed analytics and insights.'
+                title: 'Comprehensive Analytics',
+                description: 'Track total orders, revenue, average order value, pending orders, and top-performing products with real-time dashboard insights.'
               },
               {
                 icon: (
@@ -97,8 +97,8 @@ export default function HomePage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
                   </svg>
                 ),
-                title: 'Mobile-First Design',
-                description: 'Optimized for Telegram\'s mobile interface with intuitive navigation and touch-friendly controls.'
+                title: 'Advanced Shopping Cart',
+                description: 'Sophisticated cart system with automatic tax calculation (15%), shipping costs, quantity management, and real-time total updates.'
               },
               {
                 icon: (
@@ -179,7 +179,7 @@ export default function HomePage() {
               <div className="bg-background p-6 rounded-lg border border-border">
                 <h3 className="text-xl font-semibold text-foreground mb-3">Product Catalog</h3>
                 <p className="text-muted-foreground mb-4">
-                  Customers can browse your products with beautiful images, detailed descriptions, and real-time pricing.
+                  Customers can browse your products with optimized images, multilingual descriptions, and real-time pricing with advanced cart management including tax and shipping calculations.
                 </p>
                 <div className="bg-muted h-48 rounded-lg flex items-center justify-center">
                   <span className="text-muted-foreground">Product Catalog Screenshot</span>
@@ -189,7 +189,7 @@ export default function HomePage() {
               <div className="bg-background p-6 rounded-lg border border-border">
                 <h3 className="text-xl font-semibold text-foreground mb-3">Admin Dashboard</h3>
                 <p className="text-muted-foreground mb-4">
-                  Manage your store, track orders, and view analytics from our comprehensive admin panel.
+                  Monitor key metrics like total orders, revenue, average order value, and pending orders. View recent orders and top-performing products in real-time.
                 </p>
                 <div className="bg-muted h-48 rounded-lg flex items-center justify-center">
                   <span className="text-muted-foreground">Admin Dashboard Screenshot</span>
@@ -199,9 +199,9 @@ export default function HomePage() {
             
             <div className="space-y-6">
               <div className="bg-background p-6 rounded-lg border border-border">
-                <h3 className="text-xl font-semibold text-foreground mb-3">Order Management</h3>
+                <h3 className="text-xl font-semibold text-foreground mb-3">Smart Cart & Orders</h3>
                 <p className="text-muted-foreground mb-4">
-                  Process orders, generate invoices, and manage customer communications all in one place.
+                  Advanced cart with automatic tax (15%) and shipping calculation, quantity controls, and seamless checkout with multiple payment options.
                 </p>
                 <div className="bg-muted h-48 rounded-lg flex items-center justify-center">
                   <span className="text-muted-foreground">Order Management Screenshot</span>
@@ -211,7 +211,7 @@ export default function HomePage() {
               <div className="bg-background p-6 rounded-lg border border-border">
                 <h3 className="text-xl font-semibold text-foreground mb-3">Payment Processing</h3>
                 <p className="text-muted-foreground mb-4">
-                  Secure payment processing with support for multiple payment methods and automatic invoice generation.
+                  Secure payment processing with Payme, Click, and cash on delivery options. Automatic Telegram invoice generation with seamless payment integration.
                 </p>
                 <div className="bg-muted h-48 rounded-lg flex items-center justify-center">
                   <span className="text-muted-foreground">Payment Processing Screenshot</span>
@@ -237,21 +237,21 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                name: 'Sarah Chen',
-                business: 'Handmade Jewelry',
-                testimonial: 'ShopGrid transformed my Telegram channel into a thriving store. The AI product upload feature saves me hours every week!',
+                name: 'Aziza Karimova',
+                business: 'Fashion Boutique - Tashkent',
+                testimonial: 'ShopGrid bilan Telegram kanalimni do\'konga aylantirdim. Payme va Click to\'lovlari juda qulay, mijozlarim mamnun!',
                 rating: 5
               },
               {
                 name: 'Marcus Rodriguez',
-                business: 'Tech Gadgets',
-                testimonial: 'The built-in payment system is seamless. My customers love the convenience of buying directly through Telegram.',
+                business: 'Electronics Store',
+                testimonial: 'The built-in payment system with Payme and Click is perfect for Uzbekistan market. My sales increased by 300%!',
                 rating: 5
               },
               {
-                name: 'Emma Thompson',
-                business: 'Organic Skincare',
-                testimonial: 'Setting up my store took less than 10 minutes. The analytics help me understand what products my customers love most.',
+                name: 'Dilshod Abdullayev',
+                business: 'Home Goods - Samarkand',
+                testimonial: 'Do\'konimni 10 daqiqada ochib yubordim. Statistika va buyurtmalarni boshqarish juda oson va qulay.',
                 rating: 5
               }
             ].map((testimonial, index) => (
@@ -284,7 +284,7 @@ export default function HomePage() {
             Join thousands of businesses already using ShopGrid to sell their products directly through Telegram.
           </p>
           <Link
-            href="https://t.me/shopgrid_lab_bot"
+            href="https://t.me/shopgrid_bot"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-primary-foreground text-primary px-8 py-4 rounded-lg text-lg font-semibold hover:bg-primary-foreground/90 transition-colors inline-flex items-center gap-2"
