@@ -1,72 +1,8 @@
 import Navigation from '@/components/Navigation';
 import Link from 'next/link';
+import { blogPosts, categories } from '@/data/blogPosts';
 
 export default function BlogPage() {
-  const blogPosts = [
-    {
-      id: 1,
-      title: '10 Telegram Marketing Tips to Boost Your Sales',
-      excerpt: 'Discover proven strategies to leverage Telegram\'s unique features for maximum sales growth and customer engagement.',
-      category: 'Marketing Tips',
-      date: '2024-01-15',
-      readTime: '5 min read',
-      image: '/blog/telegram-marketing.jpg',
-      featured: true
-    },
-    {
-      id: 2,
-      title: 'How AI is Revolutionizing Product Management in E-commerce',
-      excerpt: 'Learn how artificial intelligence is transforming the way businesses manage their product catalogs and improve customer experience.',
-      category: 'Product Updates',
-      date: '2024-01-12',
-      readTime: '7 min read',
-      image: '/blog/ai-revolution.jpg',
-      featured: false
-    },
-    {
-      id: 3,
-      title: 'Success Story: How Sarah Built a $50K Business on Telegram',
-      excerpt: 'Follow the journey of Sarah Chen, who turned her handmade jewelry hobby into a thriving business using ShopGrid.',
-      category: 'Success Stories',
-      date: '2024-01-10',
-      readTime: '8 min read',
-      image: '/blog/success-story.jpg',
-      featured: false
-    },
-    {
-      id: 4,
-      title: 'The Complete Guide to Telegram Mini Apps for Business',
-      excerpt: 'Everything you need to know about Telegram Mini Apps and how they can transform your business operations.',
-      category: 'Guides',
-      date: '2024-01-08',
-      readTime: '12 min read',
-      image: '/blog/mini-apps-guide.jpg',
-      featured: false
-    },
-    {
-      id: 5,
-      title: 'New Features: Enhanced Analytics and Reporting',
-      excerpt: 'Explore the latest updates to ShopGrid\'s analytics dashboard and how they can help you make better business decisions.',
-      category: 'Product Updates',
-      date: '2024-01-05',
-      readTime: '4 min read',
-      image: '/blog/analytics-update.jpg',
-      featured: false
-    },
-    {
-      id: 6,
-      title: 'Building Customer Trust in Telegram Commerce',
-      excerpt: 'Essential strategies for building trust and credibility when selling products through Telegram channels.',
-      category: 'Marketing Tips',
-      date: '2024-01-03',
-      readTime: '6 min read',
-      image: '/blog/customer-trust.jpg',
-      featured: false
-    }
-  ];
-
-  const categories = ['All', 'Marketing Tips', 'Product Updates', 'Success Stories', 'Guides'];
-
   return (
     <div className="min-h-screen bg-background">
       <Navigation />
