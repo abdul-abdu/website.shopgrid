@@ -4,13 +4,13 @@ import { notFound } from 'next/navigation';
 import { blogPosts, getBlogPostById, getRelatedBlogPosts } from '@/data/blogPosts';
 
 interface BlogPostPageProps {
-  params: {
+  params: Promise<{
     id: string;
-  };
+  }>;
 }
 
-export default function BlogPostPage({ params }: BlogPostPageProps) {
-  const { id } = params;
+export default async function BlogPostPage({ params }: BlogPostPageProps) {
+  const { id } = await params;
   const post = getBlogPostById(id);
 
   if (!post) {
@@ -162,7 +162,7 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: BlogPostPageProps) {
-  const { id } = params;
+  const { id } = await params;
   const post = getBlogPostById(id);
   
   if (!post) {
