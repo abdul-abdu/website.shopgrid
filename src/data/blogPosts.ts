@@ -29,7 +29,7 @@ export const blogPosts: BlogPost[] = [
       <p>High-quality images and videos perform better on Telegram. Make sure your product photos are optimized and showcase your items in the best light.</p>
       
       <h2>4. Utilize Telegram Mini Apps</h2>
-      <p>Telegram Mini Apps, like ShopGrid, allow customers to browse and purchase products without leaving Telegram. This seamless experience significantly improves conversion rates.</p>
+      <p>Telegram Mini Apps, like Shopgrid, allow customers to browse and purchase products without leaving Telegram. This seamless experience significantly improves conversion rates.</p>
       
       <h2>5. Build Community with Groups</h2>
       <p>Telegram groups foster community engagement. Use them for customer support, product discussions, and building brand loyalty.</p>
@@ -47,7 +47,7 @@ export const blogPosts: BlogPost[] = [
       <p>Partner with other Telegram channels in your niche for cross-promotion opportunities. This helps expand your reach to relevant audiences.</p>
       
       <h2>10. Track and Analyze Performance</h2>
-      <p>Use Telegram's built-in analytics to track channel performance, and implement additional tracking through platforms like ShopGrid to monitor sales and conversions.</p>
+      <p>Use Telegram's built-in analytics to track channel performance, and implement additional tracking through platforms like Shopgrid to monitor sales and conversions.</p>
       
       <p>By implementing these strategies, you can significantly boost your sales and build a strong presence on Telegram. Remember, consistency is key – regular posting and engagement will help you build a loyal customer base.</p>
     `,
@@ -57,7 +57,7 @@ export const blogPosts: BlogPost[] = [
     readTime: '5 min read',
     image: '/blog/telegram-marketing.jpg',
     featured: true,
-    author: 'ShopGrid Team',
+    author: 'Shopgrid Team',
     tags: ['telegram', 'marketing', 'sales', 'social media']
   },
   {
@@ -76,7 +76,7 @@ export const blogPosts: BlogPost[] = [
       </ul>
       
       <h2>AI-Powered Solutions</h2>
-      <p>Modern AI solutions, like those integrated into ShopGrid, address these challenges by:</p>
+      <p>Modern AI solutions, like those integrated into Shopgrid, address these challenges by:</p>
       
       <h3>Automated Product Description Generation</h3>
       <p>AI can analyze product images and generate compelling, SEO-optimized descriptions automatically. This ensures consistency and saves countless hours of manual work.</p>
@@ -124,7 +124,7 @@ export const blogPosts: BlogPost[] = [
     id: '3',
     title: 'Success Story: How Sarah Built a $50K Business on Telegram',
     content: `
-      <p>Meet Sarah Chen, a jewelry designer from Tashkent who turned her passion for handmade accessories into a thriving $50,000 business using Telegram and ShopGrid. Her journey is an inspiration for anyone looking to start their own e-commerce venture.</p>
+      <p>Meet Sarah Chen, a jewelry designer from Tashkent who turned her passion for handmade accessories into a thriving $50,000 business using Telegram and Shopgrid. Her journey is an inspiration for anyone looking to start their own e-commerce venture.</p>
       
       <h2>The Beginning</h2>
       <p>Sarah started making jewelry as a hobby in 2022. With a background in art and design, she created unique pieces that caught the attention of friends and family. "I never thought it could become a business," Sarah recalls. "It was just something I enjoyed doing in my spare time."</p>
@@ -134,11 +134,11 @@ export const blogPosts: BlogPost[] = [
       
       <p>She started a small Telegram channel to share photos of her jewelry pieces. Within weeks, she had hundreds of subscribers asking about prices and availability.</p>
       
-      <h2>The ShopGrid Solution</h2>
-      <p>Managing orders through direct messages quickly became overwhelming. That's when Sarah discovered ShopGrid:</p>
+      <h2>The Shopgrid Solution</h2>
+      <p>Managing orders through direct messages quickly became overwhelming. That's when Sarah discovered Shopgrid:</p>
       
       <blockquote>
-        "ShopGrid changed everything. Suddenly, I had a proper store right inside Telegram. Customers could browse my catalog, add items to their cart, and pay with Payme or Click - all without leaving the app."
+        "Shopgrid changed everything. Suddenly, I had a proper store right inside Telegram. Customers could browse my catalog, add items to their cart, and pay with Payme or Click - all without leaving the app."
       </blockquote>
       
       <h2>Key Success Strategies</h2>
@@ -147,7 +147,7 @@ export const blogPosts: BlogPost[] = [
       <p>Sarah invested in a good camera and learned photography basics. "The photos had to show the jewelry's true beauty," she says.</p>
       
       <h3>2. Multilingual Support</h3>
-      <p>Using ShopGrid's multilingual features, Sarah created product descriptions in Uzbek, Russian, and English, expanding her customer base significantly.</p>
+      <p>Using Shopgrid's multilingual features, Sarah created product descriptions in Uzbek, Russian, and English, expanding her customer base significantly.</p>
       
       <h3>3. Customer Engagement</h3>
       <p>Sarah regularly engages with her Telegram community, sharing behind-the-scenes content and responding to customer questions personally.</p>
@@ -168,16 +168,16 @@ export const blogPosts: BlogPost[] = [
       <h2>Challenges and Solutions</h2>
       
       <h3>Inventory Management</h3>
-      <p>"Tracking inventory was difficult at first," Sarah admits. ShopGrid's inventory management features helped her track stock levels and avoid overselling.</p>
+      <p>"Tracking inventory was difficult at first," Sarah admits. Shopgrid's inventory management features helped her track stock levels and avoid overselling.</p>
       
       <h3>Payment Processing</h3>
-      <p>Before ShopGrid, Sarah had to handle payments manually. The integrated payment system automated this process and provided proper invoicing.</p>
+      <p>Before Shopgrid, Sarah had to handle payments manually. The integrated payment system automated this process and provided proper invoicing.</p>
       
       <h3>Customer Service</h3>
-      <p>As orders increased, providing timely customer service became challenging. Sarah now uses ShopGrid's order management system to track and respond to customer inquiries efficiently.</p>
+      <p>As orders increased, providing timely customer service became challenging. Sarah now uses Shopgrid's order management system to track and respond to customer inquiries efficiently.</p>
       
       <h2>Future Plans</h2>
-      <p>Sarah is now expanding her product line and considering wholesale opportunities. "ShopGrid gave me the foundation to build a real business," she says. "Now I'm ready to take it to the next level."</p>
+      <p>Sarah is now expanding her product line and considering wholesale opportunities. "Shopgrid gave me the foundation to build a real business," she says. "Now I'm ready to take it to the next level."</p>
       
       <h2>Advice for Aspiring Entrepreneurs</h2>
       <p>Sarah's top tips for success on Telegram:</p>
@@ -185,13 +185,13 @@ export const blogPosts: BlogPost[] = [
         <li>"Start with what you're passionate about"</li>
         <li>"Invest in good product photography"</li>
         <li>"Engage with your community regularly"</li>
-        <li>"Use the right tools - ShopGrid made all the difference"</li>
+        <li>"Use the right tools - Shopgrid made all the difference"</li>
         <li>"Be patient and consistent"</li>
       </ol>
       
-      <p>Sarah's story proves that with the right platform and dedication, anyone can build a successful business on Telegram. Her journey from hobbyist to entrepreneur is just one example of what's possible with ShopGrid.</p>
+      <p>Sarah's story proves that with the right platform and dedication, anyone can build a successful business on Telegram. Her journey from hobbyist to entrepreneur is just one example of what's possible with Shopgrid.</p>
     `,
-    excerpt: 'Follow the journey of Sarah Chen, who turned her handmade jewelry hobby into a thriving business using ShopGrid.',
+    excerpt: 'Follow the journey of Sarah Chen, who turned her handmade jewelry hobby into a thriving business using Shopgrid.',
     category: 'Success Stories',
     date: '2024-01-10',
     readTime: '8 min read',
@@ -238,7 +238,7 @@ export const blogPosts: BlogPost[] = [
       <h2>Use Cases for Different Industries</h2>
       
       <h3>E-commerce</h3>
-      <p>Online stores can showcase products, manage shopping carts, and process payments all within Telegram. ShopGrid is a perfect example of this application.</p>
+      <p>Online stores can showcase products, manage shopping carts, and process payments all within Telegram. Shopgrid is a perfect example of this application.</p>
       
       <h3>Food Delivery</h3>
       <p>Restaurants can display menus, take orders, and coordinate delivery through Telegram Mini Apps.</p>
@@ -302,7 +302,7 @@ export const blogPosts: BlogPost[] = [
       <p>If you have development resources, you can build a custom Mini App tailored to your specific needs.</p>
       
       <h3>Option 2: Use a Platform</h3>
-      <p>Platforms like ShopGrid provide ready-made solutions for specific use cases, allowing you to get started quickly without development expertise.</p>
+      <p>Platforms like Shopgrid provide ready-made solutions for specific use cases, allowing you to get started quickly without development expertise.</p>
       
       <h2>Future of Telegram Mini Apps</h2>
       <p>As Telegram continues to grow and add new features, Mini Apps will become increasingly powerful. We expect to see:</p>
@@ -315,7 +315,7 @@ export const blogPosts: BlogPost[] = [
       </ul>
       
       <h2>Conclusion</h2>
-      <p>Telegram Mini Apps represent a significant opportunity for businesses to reach customers where they already spend time. Whether you're building a custom solution or using a platform like ShopGrid, the key is to focus on providing value and a seamless user experience.</p>
+      <p>Telegram Mini Apps represent a significant opportunity for businesses to reach customers where they already spend time. Whether you're building a custom solution or using a platform like Shopgrid, the key is to focus on providing value and a seamless user experience.</p>
       
       <p>The businesses that embrace this technology early will have a significant advantage in the growing Telegram ecosystem.</p>
     `,
@@ -332,7 +332,7 @@ export const blogPosts: BlogPost[] = [
     id: '5',
     title: 'New Features: Enhanced Analytics and Reporting',
     content: `
-      <p>We're excited to announce major updates to ShopGrid's analytics and reporting capabilities. These enhancements provide deeper insights into your business performance and help you make data-driven decisions to grow your Telegram store.</p>
+      <p>We're excited to announce major updates to Shopgrid's analytics and reporting capabilities. These enhancements provide deeper insights into your business performance and help you make data-driven decisions to grow your Telegram store.</p>
       
       <h2>What's New</h2>
       
@@ -401,11 +401,11 @@ export const blogPosts: BlogPost[] = [
       <h2>How to Access the New Features</h2>
       
       <h3>For Existing Users</h3>
-      <p>All existing ShopGrid users will automatically have access to the new analytics features. Simply log into your dashboard to explore the enhanced capabilities.</p>
+      <p>All existing Shopgrid users will automatically have access to the new analytics features. Simply log into your dashboard to explore the enhanced capabilities.</p>
       
       <h3>Getting Started</h3>
       <ol>
-        <li>Navigate to the Analytics section in your ShopGrid dashboard</li>
+        <li>Navigate to the Analytics section in your Shopgrid dashboard</li>
         <li>Explore the different report categories</li>
         <li>Customize your dashboard with the metrics that matter most to you</li>
         <li>Set up automated reports for regular insights</li>
@@ -435,7 +435,7 @@ export const blogPosts: BlogPost[] = [
       <p>Use analytics to inform experiments and measure the results of changes.</p>
       
       <h2>What's Coming Next</h2>
-      <p>We're continuously working to improve ShopGrid's analytics capabilities. Coming soon:</p>
+      <p>We're continuously working to improve Shopgrid's analytics capabilities. Coming soon:</p>
       <ul>
         <li>Advanced segmentation tools</li>
         <li>Cohort analysis</li>
@@ -449,7 +449,7 @@ export const blogPosts: BlogPost[] = [
       
       <p>These enhanced analytics and reporting features are part of our commitment to helping you build a successful business on Telegram. Start exploring today and unlock new insights about your store's performance!</p>
     `,
-    excerpt: 'Explore the latest updates to ShopGrid\'s analytics dashboard and how they can help you make better business decisions.',
+    excerpt: 'Explore the latest updates to Shopgrid\'s analytics dashboard and how they can help you make better business decisions.',
     category: 'Product Updates',
     date: '2024-01-05',
     readTime: '4 min read',
@@ -576,9 +576,9 @@ export const blogPosts: BlogPost[] = [
         <li>Celebrate customer achievements and milestones</li>
       </ul>
       
-      <h2>Leveraging ShopGrid for Trust Building</h2>
+      <h2>Leveraging Shopgrid for Trust Building</h2>
       
-      <p>ShopGrid provides several features that help build customer trust:</p>
+      <p>Shopgrid provides several features that help build customer trust:</p>
       
       <h3>Professional Invoicing</h3>
       <p>Automatic generation of professional invoices adds legitimacy to transactions and provides customers with official documentation.</p>
@@ -627,7 +627,7 @@ export const blogPosts: BlogPost[] = [
       
       <p>Remember that trust is earned slowly but can be lost quickly. Focus on delivering consistent quality and service, and your Telegram store will develop a reputation that attracts new customers and keeps existing ones coming back.</p>
       
-      <p>By implementing these strategies and leveraging platforms like ShopGrid that prioritize trust and security, you can build a successful, trustworthy business on Telegram.</p>
+      <p>By implementing these strategies and leveraging platforms like Shopgrid that prioritize trust and security, you can build a successful, trustworthy business on Telegram.</p>
     `,
     excerpt: 'Essential strategies for building trust and credibility when selling products through Telegram channels.',
     category: 'Marketing Tips',

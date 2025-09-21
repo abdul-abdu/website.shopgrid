@@ -18,7 +18,7 @@ export default function Footer() {
                 </svg>
               </div>
               <span className="font-bold text-xl text-foreground">
-                ShopGrid
+                Shopgrid
               </span>
             </div>
             <p className="text-muted-foreground mb-4">
@@ -27,7 +27,7 @@ export default function Footer() {
             </p>
             <div className="flex space-x-4">
               <Link
-                href="https://t.me/shopgrid_bot"
+                href="https://t.me/Shopgrid_bot"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
@@ -42,7 +42,7 @@ export default function Footer() {
                 </svg>
               </Link>
               <Link
-                href="https://twitter.com/shopgrid"
+                href="https://twitter.com/Shopgrid"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
@@ -96,7 +96,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="https://t.me/shopgrid_bot"
+                  href="https://t.me/Shopgrid_bot"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-foreground transition-colors"
@@ -129,7 +129,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="https://t.me/shopgrid_support"
+                  href="https://t.me/Shopgrid_support"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-foreground transition-colors"
@@ -139,7 +139,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="https://t.me/shopgrid_community"
+                  href="https://t.me/Shopgrid_community"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-foreground transition-colors"
@@ -149,7 +149,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="mailto:support@shopgrid.com"
+                  href="mailto:support@Shopgrid.com"
                   className="text-muted-foreground hover:text-foreground transition-colors"
                 >
                   Email Support
@@ -201,7 +201,7 @@ export default function Footer() {
         <div className="border-t border-border mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-muted-foreground text-sm">
-              © {new Date().getFullYear()} ShopGrid. All rights reserved.
+              © {new Date().getFullYear()} Shopgrid. All rights reserved.
             </p>
             <div className="flex items-center space-x-6 mt-4 md:mt-0">
               <Link

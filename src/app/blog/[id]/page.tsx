@@ -173,7 +173,7 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
   }
 
   return {
-    title: `${post.title} | ShopGrid Blog`,
+    title: `${post.title} | Shopgrid Blog`,
     description: post.excerpt,
     keywords: post.tags.join(', '),
     openGraph: {

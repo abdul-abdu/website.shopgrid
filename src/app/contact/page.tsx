@@ -49,7 +49,7 @@ export default function ContactPage() {
               <span className="text-primary">Touch</span>
             </h1>
             <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto">
-              Have questions about ShopGrid? Need help setting up your store? 
+              Have questions about Shopgrid? Need help setting up your store? 
               We're here to help you succeed with your Telegram business.
             </p>
           </div>
@@ -169,10 +169,10 @@ export default function ContactPage() {
                       Get help with technical issues, billing questions, or general inquiries.
                     </p>
                     <a
-                      href="mailto:support@shopgrid.com"
+                      href="mailto:support@Shopgrid.com"
                       className="text-primary hover:text-primary/80 font-medium transition-colors"
                     >
-                      support@shopgrid.com
+                      support@Shopgrid.com
                     </a>
                   </div>
                 </div>
@@ -192,7 +192,7 @@ export default function ContactPage() {
                       Join our Telegram group for instant support and community discussions.
                     </p>
                     <Link
-                      href="https://t.me/shopgrid_support"
+                      href="https://t.me/Shopgrid_support"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-primary hover:text-primary/80 font-medium transition-colors"
@@ -214,10 +214,10 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-foreground mb-2">Community</h3>
                     <p className="text-muted-foreground mb-3">
-                      Connect with other ShopGrid users, share tips, and get inspired.
+                      Connect with other Shopgrid users, share tips, and get inspired.
                     </p>
                     <Link
-                      href="https://t.me/shopgrid_community"
+                      href="https://t.me/Shopgrid_community"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-primary hover:text-primary/80 font-medium transition-colors"
@@ -264,15 +264,15 @@ export default function ContactPage() {
           <div className="space-y-6">
             {[
               {
-                question: 'How do I get started with ShopGrid?',
-                answer: 'Simply visit our Telegram bot at @shopgrid_bot and follow the setup instructions. You can have your store running in minutes!'
+                question: 'How do I get started with Shopgrid?',
+                answer: 'Simply visit our Telegram bot at @Shopgrid_bot and follow the setup instructions. You can have your store running in minutes!'
               },
               {
                 question: 'What payment methods do you support?',
                 answer: 'We support all major credit cards, PayPal, and various local payment methods depending on your region.'
               },
               {
-                question: 'Can I use ShopGrid with multiple Telegram channels?',
+                question: 'Can I use Shopgrid with multiple Telegram channels?',
                 answer: 'Yes! Pro users can manage multiple stores from a single dashboard. Each channel can have its own product catalog and settings.'
               },
               {
@@ -281,7 +281,7 @@ export default function ContactPage() {
               },
               {
                 question: 'Do you offer refunds?',
-                answer: 'Yes, we offer a 30-day money-back guarantee. If you\'re not satisfied with ShopGrid, we\'ll refund your payment in full.'
+                answer: 'Yes, we offer a 30-day money-back guarantee. If you\'re not satisfied with Shopgrid, we\'ll refund your payment in full.'
               }
             ].map((faq, index) => (
               <div key={index} className="bg-background p-6 rounded-lg border border-border">
@@ -300,10 +300,10 @@ export default function ContactPage() {
             Ready to Start Your Telegram Business?
           </h2>
           <p className="text-xl text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
-            Join thousands of businesses already using ShopGrid to sell on Telegram.
+            Join thousands of businesses already using Shopgrid to sell on Telegram.
           </p>
           <Link
-            href="https://t.me/shopgrid_bot"
+            href="https://t.me/Shopgrid_bot"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-primary-foreground text-primary px-8 py-4 rounded-lg text-lg font-semibold hover:bg-primary-foreground/90 transition-colors inline-flex items-center gap-2"

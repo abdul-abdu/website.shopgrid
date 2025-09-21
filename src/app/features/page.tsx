@@ -31,7 +31,7 @@ export default function FeaturesPage() {
                 Telegram-First User Experience
               </h2>
               <p className="text-lg text-muted-foreground mb-6">
-                ShopGrid uses Telegram Web App SDK for native integration with features like main button controls, 
+                Shopgrid uses Telegram Web App SDK for native integration with features like main button controls, 
                 settings button, back button handling, and theme synchronization for optimal user experience.
               </p>
               <ul className="space-y-4">
@@ -179,7 +179,7 @@ export default function FeaturesPage() {
               </div>
               <div className="mt-8">
                 <Link
-                  href="https://t.me/shopgrid_bot"
+                  href="https://t.me/Shopgrid_bot"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-primary text-primary-foreground px-6 py-3 rounded-lg font-semibold hover:bg-primary/90 transition-colors inline-flex items-center gap-2"
@@ -247,10 +247,10 @@ export default function FeaturesPage() {
             Ready to Experience These Features?
           </h2>
           <p className="text-xl text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
-            Start your free trial today and see how ShopGrid can transform your Telegram business.
+            Start your free trial today and see how Shopgrid can transform your Telegram business.
           </p>
           <Link
-            href="https://t.me/shopgrid_bot"
+            href="https://t.me/Shopgrid_bot"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-primary-foreground text-primary px-8 py-4 rounded-lg text-lg font-semibold hover:bg-primary-foreground/90 transition-colors inline-flex items-center gap-2"

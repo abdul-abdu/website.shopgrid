@@ -1,19 +1,21 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
-import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+import { useState } from "react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import Image from "next/image";
+// import Image from "next/image";
 
 export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const pathname = usePathname();
 
   const navItems = [
-    { href: '/', label: 'Home' },
-    { href: '/features', label: 'Features' },
-    { href: '/pricing', label: 'Pricing' },
-    { href: '/blog', label: 'Blog' },
-    { href: '/contact', label: 'Contact' },
+    { href: "/", label: "Home" },
+    { href: "/features", label: "Features" },
+    { href: "/pricing", label: "Pricing" },
+    { href: "/blog", label: "Blog" },
+    { href: "/contact", label: "Contact" },
   ];
 
   const isActive = (href: string) => pathname === href;
@@ -24,12 +26,8 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-              <svg className="w-5 h-5 text-primary-foreground" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
-              </svg>
-            </div>
-            <span className="font-bold text-xl text-foreground">ShopGrid</span>
+            <Image src="/bag-bg.svg" alt="Shopgrid" width={24} height={24}/>
+            <span className="font-bold text-xl text-foreground">Shopgrid</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -39,7 +37,7 @@ export default function Navigation() {
                 key={item.href}
                 href={item.href}
                 className={`text-sm font-medium transition-colors hover:text-primary ${
-                  isActive(item.href) ? 'text-primary' : 'text-foreground'
+                  isActive(item.href) ? "text-primary" : "text-foreground"
                 }`}
               >
                 {item.label}
@@ -50,7 +48,7 @@ export default function Navigation() {
           {/* CTA Button */}
           <div className="hidden md:flex items-center space-x-4">
             <Link
-              href="https://t.me/shopgrid_bot"
+              href="https://t.me/Shopgrid_bot"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-primary text-primary-foreground px-4 py-2 rounded-lg text-sm font-medium hover:bg-primary/90 transition-colors"
@@ -100,8 +98,8 @@ export default function Navigation() {
                   href={item.href}
                   className={`block px-3 py-2 rounded-md text-base font-medium transition-colors ${
                     isActive(item.href)
-                      ? 'text-primary bg-accent'
-                      : 'text-foreground hover:text-primary hover:bg-accent'
+                      ? "text-primary bg-accent"
+                      : "text-foreground hover:text-primary hover:bg-accent"
                   }`}
                   onClick={() => setIsMenuOpen(false)}
                 >
@@ -109,7 +107,7 @@ export default function Navigation() {
                 </Link>
               ))}
               <Link
-                href="https://t.me/shopgrid_bot"
+                href="https://t.me/Shopgrid_bot"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block px-3 py-2 mt-4 bg-primary text-primary-foreground rounded-md text-base font-medium hover:bg-primary/90 transition-colors"
@@ -123,4 +121,4 @@ export default function Navigation() {
       </div>
     </nav>
   );
-} 
+}

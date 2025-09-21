@@ -12,7 +12,7 @@ export default function BlogPage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground mb-6">
-              ShopGrid{' '}
+              Shopgrid{' '}
               <span className="text-primary">Blog</span>
             </h1>
             <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto">
@@ -130,7 +130,7 @@ export default function BlogPage() {
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-primary">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-primary-foreground mb-4">
-            Stay Updated with ShopGrid
+            Stay Updated with Shopgrid
           </h2>
           <p className="text-xl text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
             Get the latest tips, updates, and success stories delivered to your inbox. 
@@ -173,7 +173,7 @@ export default function BlogPage() {
               },
               {
                 title: 'Success Stories',
-                description: 'Real stories from ShopGrid users',
+                description: 'Real stories from Shopgrid users',
                 postCount: 15
               },
               {

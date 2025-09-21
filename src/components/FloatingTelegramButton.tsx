@@ -15,7 +15,7 @@ export default function FloatingTelegramButton() {
 
   const handleTelegramClick = () => {
     // Replace with actual Telegram Mini App URL
-    window.open('https://t.me/shopgrid_bot', '_blank');
+    window.open('https://t.me/Shopgrid_bot', '_blank');
   };
 
   if (!isVisible) return null;
@@ -25,7 +25,7 @@ export default function FloatingTelegramButton() {
       <button
         onClick={handleTelegramClick}
         className="group flex items-center gap-3 bg-primary text-primary-foreground px-4 py-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
-        aria-label="Open ShopGrid in Telegram"
+        aria-label="Open Shopgrid in Telegram"
       >
         <svg
           className="w-5 h-5"

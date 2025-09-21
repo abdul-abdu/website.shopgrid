@@ -15,12 +15,12 @@ export default function HomePage() {
               <span className="text-primary">Telegram</span>
             </h1>
             <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto">
-              ShopGrid is a Telegram Mini App designed for the Uzbekistan market. Sell products directly from Telegram with Payme and Click payments, 
+              Shopgrid is a Telegram Mini App designed for the Uzbekistan market. Sell products directly from Telegram with Payme and Click payments, 
               multilingual support (Uzbek/Russian/English), automatic tax calculation, and professional invoice generation.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
-                href="https://t.me/shopgrid_bot"
+                href="https://t.me/Shopgrid_bot"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-primary text-primary-foreground px-8 py-4 rounded-lg text-lg font-semibold hover:bg-primary/90 transition-colors inline-flex items-center justify-center gap-2"
@@ -137,7 +137,7 @@ export default function HomePage() {
               {
                 step: '01',
                 title: 'Connect Your Channel',
-                description: 'Link your Telegram channel or group to ShopGrid and set up your store preferences.'
+                description: 'Link your Telegram channel or group to Shopgrid and set up your store preferences.'
               },
               {
                 step: '02',
@@ -167,7 +167,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">
-              See ShopGrid in Action
+              See Shopgrid in Action
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Beautiful, intuitive interface designed for Telegram users
@@ -239,7 +239,7 @@ export default function HomePage() {
               {
                 name: 'Aziza Karimova',
                 business: 'Fashion Boutique - Tashkent',
-                testimonial: 'ShopGrid bilan Telegram kanalimni do\'konga aylantirdim. Payme va Click to\'lovlari juda qulay, mijozlarim mamnun!',
+                testimonial: 'Shopgrid bilan Telegram kanalimni do\'konga aylantirdim. Payme va Click to\'lovlari juda qulay, mijozlarim mamnun!',
                 rating: 5
               },
               {
@@ -281,10 +281,10 @@ export default function HomePage() {
             Ready to Start Selling on Telegram?
           </h2>
           <p className="text-xl text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
-            Join thousands of businesses already using ShopGrid to sell their products directly through Telegram.
+            Join thousands of businesses already using Shopgrid to sell their products directly through Telegram.
           </p>
           <Link
-            href="https://t.me/shopgrid_bot"
+            href="https://t.me/Shopgrid_bot"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-primary-foreground text-primary px-8 py-4 rounded-lg text-lg font-semibold hover:bg-primary-foreground/90 transition-colors inline-flex items-center gap-2"

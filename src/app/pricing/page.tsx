@@ -167,7 +167,7 @@ export default function PricingPage() {
                   </div>
 
                   <Link
-                    href="https://t.me/shopgrid_bot"
+                    href="https://t.me/Shopgrid_bot"
                     target="_blank"
                     rel="noopener noreferrer"
                     className={`w-full py-3 px-6 rounded-lg font-semibold transition-colors inline-flex items-center justify-center gap-2 ${
@@ -404,7 +404,7 @@ export default function PricingPage() {
               {
                 question: "Do you offer refunds?",
                 answer:
-                  "We offer a 30-day money-back guarantee. If you're not satisfied with ShopGrid, we'll refund your payment in full.",
+                  "We offer a 30-day money-back guarantee. If you're not satisfied with Shopgrid, we'll refund your payment in full.",
               },
             ].map((faq, index) => (
               <div key={index} className="bg-secondary p-6 rounded-lg">
@@ -425,11 +425,11 @@ export default function PricingPage() {
             Ready to Start Selling on Telegram?
           </h2>
           <p className="text-xl text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
-            Join thousands of businesses already using ShopGrid. Start your free
+            Join thousands of businesses already using Shopgrid. Start your free
             trial today.
           </p>
           <Link
-            href="https://t.me/shopgrid_bot"
+            href="https://t.me/Shopgrid_bot"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-primary-foreground text-primary px-8 py-4 rounded-lg text-lg font-semibold hover:bg-primary-foreground/90 transition-colors inline-flex items-center gap-2"

@@ -10,19 +10,19 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "ShopGrid - Sell Products Directly from Telegram",
-  description: "ShopGrid is a Telegram Mini App that lets small businesses sell products directly from their Telegram channels or groups. AI-powered product listings, invoice generation, and built-in payment support.",
+  title: "Shopgrid - Sell Products Directly from Telegram",
+  description: "Shopgrid is a Telegram Mini App that lets small businesses sell products directly from their Telegram channels or groups. AI-powered product listings, invoice generation, and built-in payment support.",
   keywords: ["Telegram", "e-commerce", "mini app", "business", "selling", "products"],
-  authors: [{ name: "ShopGrid Team" }],
+  authors: [{ name: "Shopgrid Team" }],
   openGraph: {
-    title: "ShopGrid - Sell Products Directly from Telegram",
+    title: "Shopgrid - Sell Products Directly from Telegram",
     description: "Turn your Telegram channel into a store with AI-powered product listings and built-in payments.",
     type: "website",
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "ShopGrid - Sell Products Directly from Telegram",
+    title: "Shopgrid - Sell Products Directly from Telegram",
     description: "Turn your Telegram channel into a store with AI-powered product listings and built-in payments.",
   },
 };

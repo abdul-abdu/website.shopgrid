@@ -4,7 +4,7 @@
 
 ## 1. Biz kimmiz
 
-ShopGrid — bu Telegram orqali do‘konlarni yaratish va boshqarish imkonini beruvchi xizmat.
+Shopgrid — bu Telegram orqali do‘konlarni yaratish va boshqarish imkonini beruvchi xizmat.
 
 ## 2. Biz qanday ma’lumotlarni yig‘amiz
 
@@ -32,4 +32,4 @@ Ma’lumotlaringizni xavfsiz saqlash uchun zarur choralarni ko‘ramiz.
 ## 6. Aloqa
 
 Agar sizda savollar bo‘lsa, biz bilan bog‘lanishingiz mumkin:  
-📩 Email: **support@shopgrid.app**
+📩 Email: **support@Shopgrid.app**
