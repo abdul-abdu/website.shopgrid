@@ -1,4 +1,4 @@
-import Navigation from '@/components/Navigation';
+import Navigation from '@/app/[lang]/components/Navigation';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { blogPosts, getBlogPostById, getRelatedBlogPosts } from '@/data/blogPosts';

@@ -1,0 +1,680 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-23 22:12+0500\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.7\n"
+
+#. js-lingui-explicit-id
+#: src/app/[lang]/layout.tsx:19
+#: src/app/[lang]/layout.tsx:33
+#: src/app/[lang]/layout.tsx:42
+msgid "Shopgrid - Sell Products Directly from Telegram"
+msgstr ""
+
+#. js-lingui-explicit-id
+#: src/app/[lang]/layout.tsx:20
+msgid "Shopgrid is a Telegram Mini App that lets small businesses sell products directly from their Telegram channels or groups. AI-powered product listings, invoice generation, and built-in payment support."
+msgstr ""
+
+#. js-lingui-explicit-id
+#: src/app/[lang]/layout.tsx:31
+msgid "Shopgrid Team"
+msgstr ""
+
+#. js-lingui-explicit-id
+#: src/app/[lang]/layout.tsx:34
+#: src/app/[lang]/layout.tsx:43
+msgid "Turn your Telegram channel into a store with AI-powered product listings and built-in payments."
+msgstr ""
+
+#: src/app/[lang]/components/Footer.tsx:183
+msgid "About Us"
+msgstr "Biz haqimizda"
+
+#: src/app/[lang]/features/page.tsx:223
+msgid "Accept payments with Payme, Click, and cash on delivery options"
+msgstr ""
+
+#: src/app/[lang]/features/page.tsx:110
+msgid "AI-Powered Product Tools"
+msgstr ""
+
+#: src/app/[lang]/components/Footer.tsx:217
+msgid "All rights reserved."
+msgstr "Barcha huquqlar himoyalangan."
+
+#: src/app/[lang]/features/page.tsx:231
+msgid "Automatic calculation of taxes (15%) and shipping costs with order breakdown"
+msgstr ""
+
+#: src/app/[lang]/features/page.tsx:171
+msgid "Automatic theme adaptation to user preferences"
+msgstr ""
+
+#: src/app/[lang]/features/page.tsx:48
+msgid "Automatic theme synchronization with Telegram"
+msgstr ""
+
+#: src/app/[lang]/page.tsx:270
+msgid "Beautiful, intuitive interface designed for Telegram users"
+msgstr ""
+
+#: src/app/[lang]/contact/page.tsx:139
+msgid "Billing Question"
+msgstr ""
+
+#: src/app/[lang]/components/Footer.tsx:125
+#: src/app/[lang]/components/Navigation.tsx:29
+msgid "Blog"
+msgstr ""
+
+#: src/app/[lang]/features/page.tsx:172
+msgid "Built-in Telegram invoice generation and payment"
+msgstr ""
+
+#: src/app/[lang]/contact/page.tsx:376
+msgid "Can I use Shopgrid with multiple Telegram channels?"
+msgstr ""
+
+#: src/app/[lang]/components/Footer.tsx:207
+msgid "Careers"
+msgstr ""
+
+#: src/app/[lang]/pricing/page.tsx:89
+msgid "Choose the perfect plan for your business. Start free and upgrade as you grow. All plans include our core features with no hidden fees."
+msgstr ""
+
+#: src/app/[lang]/components/Footer.tsx:160
+#: src/app/[lang]/contact/page.tsx:285
+msgid "Community"
+msgstr ""
+
+#: src/app/[lang]/components/Footer.tsx:176
+msgid "Company"
+msgstr ""
+
+#: src/app/[lang]/pricing/page.tsx:260
+msgid "Compare All Features"
+msgstr ""
+
+#: src/app/[lang]/features/page.tsx:212
+msgid "Complete Payment & Invoice System"
+msgstr ""
+
+#: src/app/[lang]/features/page.tsx:82
+msgid "Comprehensive Admin Dashboard"
+msgstr ""
+
+#: src/app/[lang]/contact/page.tsx:288
+msgid "Connect with other Shopgrid users, share tips, and get inspired."
+msgstr ""
+
+#: src/app/[lang]/features/page.tsx:194
+msgid "Connect Your Channel"
+msgstr ""
+
+#: src/app/[lang]/components/Navigation.tsx:30
+msgid "Contact"
+msgstr ""
+
+#: src/app/[lang]/contact/page.tsx:183
+msgid "Contact Information"
+msgstr ""
+
+#: src/app/[lang]/components/Footer.tsx:140
+msgid "Contact Us"
+msgstr "Biz bilan bog’laning"
+
+#: src/app/[lang]/components/Footer.tsx:236
+msgid "Cookies"
+msgstr ""
+
+#: src/app/[lang]/features/page.tsx:135
+msgid "Create product listings with multilingual support (Uzbek, Russian, English) and rich formatting for descriptions."
+msgstr ""
+
+#: src/app/[lang]/page.tsx:47
+msgid "Create Your Store"
+msgstr ""
+
+#: src/app/[lang]/page.tsx:440
+msgid "Create Your Store Now"
+msgstr ""
+
+#: src/app/[lang]/features/page.tsx:91
+msgid "Customer Database"
+msgstr ""
+
+#: src/app/[lang]/features/page.tsx:166
+msgid "Deep integration with Telegram's ecosystem including theme adaptation, bot integration, and native Telegram Web App features for seamless user experience."
+msgstr ""
+
+#: src/app/[lang]/contact/page.tsx:402
+msgid "Do you offer refunds?"
+msgstr ""
+
+#: src/app/[lang]/contact/page.tsx:106
+msgid "Email *"
+msgstr ""
+
+#: src/app/[lang]/components/Footer.tsx:168
+#: src/app/[lang]/contact/page.tsx:213
+msgid "Email Support"
+msgstr ""
+
+#: src/app/[lang]/pricing/page.tsx:383
+msgid "Everything you need to know about our pricing and plans"
+msgstr ""
+
+#: src/app/[lang]/page.tsx:65
+msgid "Everything you need to sell on Telegram"
+msgstr ""
+
+#: src/app/[lang]/features/page.tsx:26
+msgid "Everything you need to turn your Telegram channel into a thriving online store. Built specifically for the Telegram ecosystem with modern tools and AI-powered features."
+msgstr ""
+
+#: src/app/[lang]/blog/page.tsx:196
+msgid "Explore our most-read articles and guides"
+msgstr ""
+
+#: src/app/[lang]/pricing/page.tsx:275
+msgid "Feature"
+msgstr ""
+
+#: src/app/[lang]/contact/page.tsx:141
+msgid "Feature Request"
+msgstr ""
+
+#: src/app/[lang]/blog/page.tsx:42
+msgid "Featured Article"
+msgstr ""
+
+#: src/app/[lang]/components/Footer.tsx:99
+#: src/app/[lang]/components/Navigation.tsx:27
+msgid "Features"
+msgstr ""
+
+#: src/app/[lang]/pricing/page.tsx:278
+msgid "Free"
+msgstr ""
+
+#: src/app/[lang]/contact/page.tsx:395
+msgid "Free users can list up to 10 products, Starter users up to 100, and Pro users have unlimited products."
+msgstr ""
+
+#: src/app/[lang]/contact/page.tsx:346
+#: src/app/[lang]/pricing/page.tsx:380
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: src/app/[lang]/contact/page.tsx:137
+msgid "General Inquiry"
+msgstr ""
+
+#: src/app/[lang]/features/page.tsx:227
+msgid "Generate and send invoices directly through Telegram with automatic processing"
+msgstr ""
+
+#: src/app/[lang]/features/page.tsx:144
+msgid "Get AI-powered pricing recommendations based on market analysis, competition, and product features."
+msgstr ""
+
+#: src/app/[lang]/contact/page.tsx:216
+msgid "Get help with technical issues, billing questions, or general inquiries."
+msgstr ""
+
+#: src/app/[lang]/contact/page.tsx:57
+msgid "Get in"
+msgstr ""
+
+#: src/app/[lang]/components/Footer.tsx:117
+#: src/app/[lang]/components/Navigation.tsx:68
+#: src/app/[lang]/components/Navigation.tsx:129
+msgid "Get Started"
+msgstr ""
+
+#: src/app/[lang]/contact/page.tsx:446
+msgid "Get Started Now"
+msgstr ""
+
+#: src/app/[lang]/blog/page.tsx:169
+msgid "Get the latest tips, updates, and success stories delivered to your inbox. No spam, just valuable content to help grow your business."
+msgstr ""
+
+#: src/app/[lang]/page.tsx:221
+msgid "Get your Telegram store up and running in just 3 simple steps"
+msgstr ""
+
+#: src/app/[lang]/features/page.tsx:215
+msgid "Handle payments, generate invoices, and manage your finances all in one place"
+msgstr ""
+
+#: src/app/[lang]/contact/page.tsx:63
+msgid "Have questions about Shopgrid? Need help setting up your store? We're here to help you succeed with your Telegram business."
+msgstr ""
+
+#: src/app/[lang]/components/Footer.tsx:150
+msgid "Help Center"
+msgstr ""
+
+#: src/app/[lang]/components/Navigation.tsx:26
+msgid "Home"
+msgstr ""
+
+#: src/app/[lang]/contact/page.tsx:356
+msgid "How do I get started with Shopgrid?"
+msgstr ""
+
+#: src/app/[lang]/page.tsx:218
+msgid "How it Works"
+msgstr ""
+
+#: src/app/[lang]/blog/page.tsx:27
+msgid "Insights, tips, and success stories to help you grow your Telegram business. Stay updated with the latest features and best practices."
+msgstr ""
+
+#: src/app/[lang]/features/page.tsx:235
+msgid "Instant payment confirmation and order status updates through Telegram"
+msgstr ""
+
+#: src/app/[lang]/features/page.tsx:163
+msgid "Instant Telegram Integration"
+msgstr ""
+
+#: src/app/[lang]/features/page.tsx:143
+msgid "Intelligent Pricing"
+msgstr ""
+
+#: src/app/[lang]/contact/page.tsx:390
+msgid "Is there a limit on the number of products I can sell?"
+msgstr ""
+
+#: src/app/[lang]/contact/page.tsx:299
+msgid "Join Community"
+msgstr ""
+
+#: src/app/[lang]/contact/page.tsx:248
+msgid "Join our Telegram group for instant support and community discussions."
+msgstr ""
+
+#: src/app/[lang]/contact/page.tsx:259
+msgid "Join Support Group"
+msgstr ""
+
+#: src/app/[lang]/page.tsx:356
+msgid "Join thousands of businesses already selling on Telegram"
+msgstr ""
+
+#: src/app/[lang]/contact/page.tsx:432
+msgid "Join thousands of businesses already using Shopgrid to sell on Telegram."
+msgstr ""
+
+#: src/app/[lang]/page.tsx:426
+msgid "Join thousands of businesses already using Shopgrid to sell their products directly through Telegram."
+msgstr ""
+
+#: src/app/[lang]/pricing/page.tsx:435
+msgid "Join thousands of businesses already using Shopgrid. Start your free trial today."
+msgstr ""
+
+#: src/app/[lang]/page.tsx:53
+msgid "Learn More"
+msgstr ""
+
+#: src/app/[lang]/features/page.tsx:113
+msgid "Let artificial intelligence handle the heavy lifting of product management"
+msgstr ""
+
+#: src/app/[lang]/features/page.tsx:46
+msgid "Main button integration for checkout actions"
+msgstr ""
+
+#: src/app/[lang]/features/page.tsx:91
+msgid "Manage customer information and purchase history with multilingual support"
+msgstr ""
+
+#: src/app/[lang]/features/page.tsx:85
+msgid "Manage your entire business from one powerful dashboard. Track sales, manage inventory, and analyze performance with real-time data and insights."
+msgstr ""
+
+#: src/app/[lang]/contact/page.tsx:151
+msgid "Message *"
+msgstr ""
+
+#: src/app/[lang]/pricing/page.tsx:103
+msgid "Monthly"
+msgstr ""
+
+#: src/app/[lang]/pricing/page.tsx:148
+msgid "Most Popular"
+msgstr ""
+
+#: src/app/[lang]/features/page.tsx:174
+msgid "Multi-language support (Uzbek interface)"
+msgstr ""
+
+#: src/app/[lang]/features/page.tsx:134
+msgid "Multilingual Product Support"
+msgstr ""
+
+#: src/app/[lang]/contact/page.tsx:88
+msgid "Name *"
+msgstr ""
+
+#: src/app/[lang]/features/page.tsx:45
+msgid "Native Telegram Web App components and hooks"
+msgstr ""
+
+#: src/app/[lang]/pricing/page.tsx:221
+msgid "Not included:"
+msgstr ""
+
+#: src/app/[lang]/components/FloatingTelegramButton.tsx:40
+msgid "Open in Telegram"
+msgstr ""
+
+#: src/app/[lang]/features/page.tsx:89
+msgid "Order Management"
+msgstr ""
+
+#: src/app/[lang]/contact/page.tsx:142
+msgid "Other"
+msgstr ""
+
+#: src/app/[lang]/contact/page.tsx:140
+msgid "Partnership"
+msgstr ""
+
+#: src/app/[lang]/blog/page.tsx:193
+msgid "Popular Topics"
+msgstr ""
+
+#: src/app/[lang]/page.tsx:68
+msgid "Powerful features designed for Uzbekistan businesses using Telegram's ecosystem"
+msgstr ""
+
+#: src/app/[lang]/features/page.tsx:22
+msgid "Powerful Features for"
+msgstr ""
+
+#: src/app/[lang]/components/Footer.tsx:107
+#: src/app/[lang]/components/Navigation.tsx:28
+#: src/app/[lang]/pricing/page.tsx:85
+msgid "Pricing"
+msgstr ""
+
+#: src/app/[lang]/components/Footer.tsx:224
+msgid "Privacy"
+msgstr ""
+
+#: src/app/[lang]/components/Footer.tsx:191
+msgid "Privacy Policy"
+msgstr ""
+
+#: src/app/[lang]/pricing/page.tsx:284
+msgid "Pro"
+msgstr ""
+
+#: src/app/[lang]/features/page.tsx:89
+msgid "Process orders, update status, track pending/paid/shipped/cancelled orders with real-time updates"
+msgstr ""
+
+#: src/app/[lang]/components/Footer.tsx:92
+msgid "Product"
+msgstr ""
+
+#: src/app/[lang]/features/page.tsx:92
+msgid "Product Performance"
+msgstr ""
+
+#: src/app/[lang]/contact/page.tsx:349
+msgid "Quick answers to common questions"
+msgstr ""
+
+#: src/app/[lang]/blog/page.tsx:84
+#: src/app/[lang]/blog/page.tsx:152
+msgid "Read More →"
+msgstr ""
+
+#: src/app/[lang]/features/page.tsx:251
+msgid "Ready to Experience These Features?"
+msgstr ""
+
+#: src/app/[lang]/page.tsx:423
+#: src/app/[lang]/pricing/page.tsx:432
+msgid "Ready to Start Selling on Telegram?"
+msgstr ""
+
+#: src/app/[lang]/contact/page.tsx:429
+msgid "Ready to Start Your Telegram Business?"
+msgstr ""
+
+#: src/app/[lang]/features/page.tsx:173
+msgid "Real-time order notifications and updates"
+msgstr ""
+
+#: src/app/[lang]/features/page.tsx:234
+msgid "Real-time Payment Processing"
+msgstr ""
+
+#: src/app/[lang]/contact/page.tsx:325
+msgid "Response Time"
+msgstr ""
+
+#: src/app/[lang]/features/page.tsx:49
+msgid "Responsive navigation optimized for mobile Telegram"
+msgstr ""
+
+#: src/app/[lang]/features/page.tsx:90
+msgid "Revenue Analytics"
+msgstr ""
+
+#: src/app/[lang]/pricing/page.tsx:124
+msgid "Save 20%"
+msgstr ""
+
+#: src/app/[lang]/pricing/page.tsx:263
+msgid "See exactly what's included in each plan to make the best choice for your business"
+msgstr ""
+
+#: src/app/[lang]/page.tsx:267
+msgid "See Shopgrid in Action"
+msgstr ""
+
+#: src/app/[lang]/contact/page.tsx:136
+msgid "Select a subject"
+msgstr ""
+
+#: src/app/[lang]/page.tsx:20
+msgid "Sell Products Directly from"
+msgstr ""
+
+#: src/app/[lang]/contact/page.tsx:173
+msgid "Send Message"
+msgstr ""
+
+#: src/app/[lang]/contact/page.tsx:79
+msgid "Send us a Message"
+msgstr ""
+
+#: src/app/[lang]/contact/page.tsx:171
+msgid "Sending..."
+msgstr ""
+
+#: src/app/[lang]/features/page.tsx:47
+msgid "Settings button and back button native handling"
+msgstr ""
+
+#: src/app/[lang]/page.tsx:26
+msgid "Shopgrid is a Telegram Mini App designed for the Uzbekistan market. Sell products directly from Telegram with Payme and Click payments, multilingual support (Uzbek/Russian/English), automatic tax calculation, and professional invoice generation."
+msgstr ""
+
+#: src/app/[lang]/features/page.tsx:41
+msgid "Shopgrid uses Telegram Web App SDK for native integration with features like main button controls, settings button, back button handling, and theme synchronization for optimal user experience."
+msgstr ""
+
+#: src/app/[lang]/pricing/page.tsx:83
+msgid "Simple, Transparent"
+msgstr ""
+
+#: src/app/[lang]/contact/page.tsx:358
+msgid "Simply visit our Telegram bot at @Shopgrid_bot and follow the setup instructions. You can have your store running in minutes!"
+msgstr ""
+
+#: src/app/[lang]/features/page.tsx:125
+msgid "Smart Image Analysis"
+msgstr ""
+
+#: src/app/[lang]/features/page.tsx:265
+msgid "Start Free Trial"
+msgstr ""
+
+#: src/app/[lang]/features/page.tsx:254
+msgid "Start your free trial today and see how Shopgrid can transform your Telegram business."
+msgstr ""
+
+#: src/app/[lang]/pricing/page.tsx:281
+msgid "Starter"
+msgstr ""
+
+#: src/app/[lang]/blog/page.tsx:166
+msgid "Stay Updated with Shopgrid"
+msgstr ""
+
+#: src/app/[lang]/contact/page.tsx:126
+msgid "Subject *"
+msgstr ""
+
+#: src/app/[lang]/blog/page.tsx:182
+msgid "Subscribe"
+msgstr ""
+
+#: src/app/[lang]/components/Footer.tsx:133
+msgid "Support"
+msgstr ""
+
+#: src/app/[lang]/features/page.tsx:230
+msgid "Tax & Shipping Calculation"
+msgstr ""
+
+#: src/app/[lang]/contact/page.tsx:138
+msgid "Technical Support"
+msgstr ""
+
+#: src/app/[lang]/page.tsx:22
+msgid "Telegram"
+msgstr ""
+
+#: src/app/[lang]/features/page.tsx:23
+msgid "Telegram Commerce"
+msgstr ""
+
+#: src/app/[lang]/features/page.tsx:62
+msgid "Telegram Interface Preview"
+msgstr ""
+
+#: src/app/[lang]/features/page.tsx:226
+msgid "Telegram Invoice Generation"
+msgstr ""
+
+#: src/app/[lang]/contact/page.tsx:245
+msgid "Telegram Support"
+msgstr ""
+
+#: src/app/[lang]/features/page.tsx:170
+msgid "Telegram Web App integration with native UI"
+msgstr ""
+
+#: src/app/[lang]/features/page.tsx:38
+msgid "Telegram-First User Experience"
+msgstr ""
+
+#: src/app/[lang]/contact/page.tsx:161
+msgid "Tell us how we can help you..."
+msgstr ""
+
+#: src/app/[lang]/components/Footer.tsx:230
+msgid "Terms"
+msgstr ""
+
+#: src/app/[lang]/components/Footer.tsx:199
+msgid "Terms of Service"
+msgstr ""
+
+#: src/app/[lang]/components/Footer.tsx:39
+msgid "The easiest way to sell products directly from your Telegram channels and groups."
+msgstr ""
+
+#: src/app/[lang]/contact/page.tsx:59
+msgid "Touch"
+msgstr ""
+
+#: src/app/[lang]/features/page.tsx:90
+msgid "Track total revenue, average order value, and financial performance with detailed breakdowns"
+msgstr ""
+
+#: src/app/[lang]/features/page.tsx:126
+msgid "Upload product photos with automatic image optimization and CDN delivery for fast loading across all devices."
+msgstr ""
+
+#: src/app/[lang]/features/page.tsx:222
+msgid "Uzbekistan Payment Systems"
+msgstr ""
+
+#: src/app/[lang]/features/page.tsx:92
+msgid "View top-performing products, revenue tracking, and inventory insights"
+msgstr ""
+
+#: src/app/[lang]/contact/page.tsx:368
+msgid "We support all major credit cards, PayPal, and various local payment methods depending on your region."
+msgstr ""
+
+#: src/app/[lang]/contact/page.tsx:328
+msgid "We typically respond within 24 hours for email inquiries and within 2 hours for Telegram messages."
+msgstr ""
+
+#: src/app/[lang]/contact/page.tsx:186
+msgid "We're here to help you succeed with your Telegram business. Reach out to us through any of these channels."
+msgstr ""
+
+#: src/app/[lang]/page.tsx:353
+msgid "What Our Users Say"
+msgstr ""
+
+#: src/app/[lang]/contact/page.tsx:366
+msgid "What payment methods do you support?"
+msgstr ""
+
+#: src/app/[lang]/pricing/page.tsx:195
+msgid "What's included:"
+msgstr ""
+
+#: src/app/[lang]/pricing/page.tsx:122
+msgid "Yearly"
+msgstr ""
+
+#: src/app/[lang]/contact/page.tsx:404
+msgid "Yes, we offer a 30-day money-back guarantee. If you're not satisfied with Shopgrid, we'll refund your payment in full."
+msgstr ""
+
+#: src/app/[lang]/contact/page.tsx:381
+msgid "Yes! Pro users can manage multiple stores from a single dashboard. Each channel can have its own product catalog and settings."
+msgstr ""
+
+#: src/app/[lang]/contact/page.tsx:98
+msgid "Your name"
+msgstr ""
+
+#: src/app/[lang]/contact/page.tsx:116
+msgid "your@email.com"
+msgstr ""
