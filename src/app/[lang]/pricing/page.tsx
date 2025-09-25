@@ -80,10 +80,10 @@ export default function PricingPage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground mb-6">
-              <Trans>Simple, Transparent</Trans>{" "}
-              <span className="text-primary">
-                <Trans>Pricing</Trans>
-              </span>
+              <Trans>
+                Simple, Transparent{" "}
+                <span className="text-primary">Pricing</span>
+              </Trans>
             </h1>
             <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto">
               <Trans>

@@ -4,30 +4,22 @@ import { Trans } from "@lingui/react/macro";
 import { blogPosts, categories } from "@/data/blogPosts";
 import { initLingui } from "../../initLingui";
 
-export default async function BlogPage({
-  params,
-}: {
-  params: Promise<{ lang: string }>;
-}) {
+export default async function BlogPage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
   initLingui(lang);
   return (
     <div className="min-h-screen bg-background">
       <Navigation />
-
-      {/* Hero Section */}
       <section className="pt-24 pb-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="text-center">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground mb-6">
-              Shopgrid
-              <span className="text-primary">Blog</span>
+              Shopgrid <span className="text-primary">Blog</span>
             </h1>
             <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto">
+              {/* prettier-ignore */}
               <Trans>
-                Insights, tips, and success stories to help you grow your
-                Telegram business. Stay updated with the latest features and
-                best practices.
+                Insights, tips, and success stories to help you grow your Telegram business. Stay updated with the latest features and best practices.
               </Trans>
             </p>
           </div>
@@ -46,28 +38,19 @@ export default async function BlogPage({
           {blogPosts
             .filter((post) => post.featured)
             .map((post) => (
-              <div
-                key={post.id}
-                className="bg-background rounded-lg border border-border overflow-hidden shadow-lg"
-              >
+              <div key={post.id} className="bg-background rounded-lg border border-border overflow-hidden shadow-lg">
                 <div className="grid grid-cols-1 lg:grid-cols-2">
                   <div className="bg-muted h-64 lg:h-full flex items-center justify-center">
-                    <span className="text-muted-foreground">
-                      Featured Post Image
-                    </span>
+                    <span className="text-muted-foreground">Featured Post Image</span>
                   </div>
                   <div className="p-8">
                     <div className="flex items-center gap-4 mb-4">
                       <span className="bg-primary text-primary-foreground px-3 py-1 rounded-full text-sm font-medium">
                         {post.category}
                       </span>
-                      <span className="text-muted-foreground text-sm">
-                        {post.readTime}
-                      </span>
+                      <span className="text-muted-foreground text-sm">{post.readTime}</span>
                     </div>
-                    <h3 className="text-2xl font-bold text-foreground mb-4">
-                      {post.title}
-                    </h3>
+                    <h3 className="text-2xl font-bold text-foreground mb-4">{post.title}</h3>
                     <p className="text-muted-foreground mb-6">{post.excerpt}</p>
                     <div className="flex items-center justify-between">
                       <span className="text-sm text-muted-foreground">
@@ -81,7 +64,7 @@ export default async function BlogPage({
                         href={`/blog/${post.id}`}
                         className="text-primary hover:text-primary/80 font-medium transition-colors"
                       >
-                        <Trans>Read More →</Trans>
+                        <Trans>Read More</Trans> →
                       </Link>
                     </div>
                   </div>
@@ -118,25 +101,17 @@ export default async function BlogPage({
                   className="bg-background rounded-lg border border-border overflow-hidden hover:shadow-lg transition-shadow"
                 >
                   <div className="bg-muted h-48 flex items-center justify-center">
-                    <span className="text-muted-foreground">
-                      Blog Post Image
-                    </span>
+                    <span className="text-muted-foreground">Blog Post Image</span>
                   </div>
                   <div className="p-6">
                     <div className="flex items-center gap-4 mb-3">
                       <span className="bg-secondary text-foreground px-2 py-1 rounded text-xs font-medium">
                         {post.category}
                       </span>
-                      <span className="text-muted-foreground text-xs">
-                        {post.readTime}
-                      </span>
+                      <span className="text-muted-foreground text-xs">{post.readTime}</span>
                     </div>
-                    <h3 className="text-xl font-bold text-foreground mb-3 line-clamp-2">
-                      {post.title}
-                    </h3>
-                    <p className="text-muted-foreground mb-4 line-clamp-3">
-                      {post.excerpt}
-                    </p>
+                    <h3 className="text-xl font-bold text-foreground mb-3 line-clamp-2">{post.title}</h3>
+                    <p className="text-muted-foreground mb-4 line-clamp-3">{post.excerpt}</p>
                     <div className="flex items-center justify-between">
                       <span className="text-sm text-muted-foreground">
                         {new Date(post.date).toLocaleDateString("en-US", {
@@ -167,9 +142,8 @@ export default async function BlogPage({
           </h2>
           <p className="text-xl text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
             <Trans>
-              Get the latest tips, updates, and success stories delivered to
-              your inbox. No spam, just valuable content to help grow your
-              business.
+              Get the latest tips, updates, and success stories delivered to your inbox. No spam, just valuable content
+              to help grow your business.
             </Trans>
           </p>
           <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
@@ -220,19 +194,10 @@ export default async function BlogPage({
                 postCount: 6,
               },
             ].map((topic, index) => (
-              <div
-                key={index}
-                className="bg-secondary p-6 rounded-lg text-center"
-              >
-                <h3 className="text-lg font-semibold text-foreground mb-2">
-                  {topic.title}
-                </h3>
-                <p className="text-muted-foreground text-sm mb-3">
-                  {topic.description}
-                </p>
-                <span className="text-primary text-sm font-medium">
-                  {topic.postCount} articles
-                </span>
+              <div key={index} className="bg-secondary p-6 rounded-lg text-center">
+                <h3 className="text-lg font-semibold text-foreground mb-2">{topic.title}</h3>
+                <p className="text-muted-foreground text-sm mb-3">{topic.description}</p>
+                <span className="text-primary text-sm font-medium">{topic.postCount} articles</span>
               </div>
             ))}
           </div>

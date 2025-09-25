@@ -9,7 +9,7 @@ import { t } from "@lingui/core/macro";
 
 export default function ContactPage() {
   const { i18n } = useLingui();
-  
+
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -54,11 +54,11 @@ export default function ContactPage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground mb-6">
-              <Trans>Get in</Trans>{" "}
-              <span className="text-primary">
-                <Trans>Touch</Trans>
-              </span>
+              <Trans>
+                Get in <span className="text-primary">Touch</span>
+              </Trans>
             </h1>
+
             <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto">
               <Trans>
                 Have questions about Shopgrid? Need help setting up your store?
@@ -135,10 +135,14 @@ export default function ContactPage() {
                   >
                     <option value="">{t(i18n)`Select a subject`}</option>
                     <option value="general">{t(i18n)`General Inquiry`}</option>
-                    <option value="support">{t(i18n)`Technical Support`}</option>
+                    <option value="support">{t(
+                      i18n
+                    )`Technical Support`}</option>
                     <option value="billing">{t(i18n)`Billing Question`}</option>
                     <option value="partnership">{t(i18n)`Partnership`}</option>
-                    <option value="feature-request">{t(i18n)`Feature Request`}</option>
+                    <option value="feature-request">{t(
+                      i18n
+                    )`Feature Request`}</option>
                     <option value="other">{t(i18n)`Other`}</option>
                   </select>
                 </div>

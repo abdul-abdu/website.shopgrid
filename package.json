@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "po:dev": "lingui extract --clean",
-    "po:build": "lingui compile"
+    "po:build": "lingui compile",
+    "po": "yarn po:dev & yarn po:build"
   },
   "dependencies": {
     "@lingui/core": "^5.5.0",
