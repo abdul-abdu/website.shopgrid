@@ -1,4 +1,3 @@
-import { t } from "@lingui/core/macro";
 import { LinguiClientProvider } from "./LinguiClientProvider";
 import { allMessages, getI18nInstance } from "../appRouterI18n";
 import { initLingui, PageLangParam } from "../initLingui";

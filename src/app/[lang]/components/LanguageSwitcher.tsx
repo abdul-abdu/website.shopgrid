@@ -12,15 +12,13 @@ export default function LanguageSwitcher() {
 
   const currentLocale = useMemo(() => {
     const segments = pathname.split("/").filter(Boolean);
-    const defaultLocale = (linguiConfig as any).sourceLocale || "en";
+    const defaultLocale = (linguiConfig as { sourceLocale?: string }).sourceLocale || "en";
     return segments[0] ?? defaultLocale;
   }, [pathname]);
 
   const onChange = (nextLocale: string) => {
     if (!nextLocale || nextLocale === currentLocale) return;
     const segments = pathname.split("/");
-    // Ensure leading slash remains
-    const leadingSlash = segments[0] === "" ? "" : "/";
     const nonEmpty = segments.filter(Boolean);
     if (nonEmpty.length === 0) {
       router.replace(`/${nextLocale}`);

@@ -53,16 +53,12 @@ export default async function FeaturesPage({
               </p>
               <ul className="space-y-4">
                 {[
-                  <Trans>Native Telegram Web App components and hooks</Trans>,
-                  <Trans>Main button integration for checkout actions</Trans>,
-                  <Trans>
-                    Settings button and back button native handling
-                  </Trans>,
-                  <Trans>Automatic theme synchronization with Telegram</Trans>,
-                  <Trans>
-                    Responsive navigation optimized for mobile Telegram
-                  </Trans>,
-                ].map((feature, index) => (
+                  "Native Telegram Web App components and hooks",
+                  "Main button integration for checkout actions",
+                  "Settings button and back button native handling",
+                  "Automatic theme synchronization with Telegram",
+                  "Responsive navigation optimized for mobile Telegram",
+                ].map((text, index) => (
                   <li key={index} className="flex items-start gap-3">
                     <svg
                       className="w-5 h-5 text-primary mt-1 flex-shrink-0"
@@ -75,7 +71,9 @@ export default async function FeaturesPage({
                         clipRule="evenodd"
                       />
                     </svg>
-                    <span className="text-foreground">{feature}</span>
+                    <span className="text-foreground">
+                      <Trans>{text}</Trans>
+                    </span>
                   </li>
                 ))}
               </ul>
@@ -287,20 +285,18 @@ export default async function FeaturesPage({
               </p>
               <div className="space-y-4">
                 {[
-                  <Trans>Telegram Web App integration with native UI</Trans>,
-                  <Trans>Automatic theme adaptation to user preferences</Trans>,
-                  <Trans>
-                    Built-in Telegram invoice generation and payment
-                  </Trans>,
-                  <Trans>Real-time order notifications and updates</Trans>,
-                  <Trans>Multi-language support (Uzbek interface)</Trans>,
-                ].map((feature, index) => (
+                  "Telegram Web App integration with native UI",
+                  "Automatic theme adaptation to user preferences",
+                  "Built-in Telegram invoice generation and payment",
+                  "Real-time order notifications and updates",
+                  "Multi-language support (Uzbek interface)",
+                ].map((text, index) => (
                   <div key={index} className="flex items-center gap-3">
                     <div className="w-8 h-8 bg-primary text-primary-foreground rounded-full flex items-center justify-center text-sm font-bold">
                       {index + 1}
                     </div>
                     <span className="text-foreground font-medium">
-                      {feature}
+                      <Trans>{text}</Trans>
                     </span>
                   </div>
                 ))}

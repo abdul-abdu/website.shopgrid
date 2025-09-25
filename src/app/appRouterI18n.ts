@@ -7,18 +7,14 @@ const { locales } = linguiConfig;
 // optionally use a stricter union type
 type SupportedLocales = string;
 
+type CatalogModule = { messages?: Messages; default?: { messages?: Messages } };
+
 async function loadCatalog(
   locale: SupportedLocales
 ): Promise<{ [k: string]: Messages }> {
-  try {
-    const mod: any = await import(`../../locales/${locale}.js`);
-    const msgs = (mod && (mod.messages || mod.default?.messages)) || {};
-    return { [locale]: msgs };
-  } catch (error) {
-    const mod: any = await import(`../../locales/${locale}.po`);
-    const msgs = (mod && (mod.messages || mod.default?.messages)) || {};
-    return { [locale]: msgs };
-  }
+  const mod: CatalogModule = await import(`../../locales/${locale}.js`);
+  const msgs: Messages = (mod.messages || mod.default?.messages) ?? {};
+  return { [locale]: msgs };
 }
 const catalogs = await Promise.all(locales.map(loadCatalog));
 
