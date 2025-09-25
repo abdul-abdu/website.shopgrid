@@ -20,7 +20,7 @@ export default async function Page({ params }: { params: Promise<{ lang: string 
             <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto">
               {/* prettier-ignore */}
               <Trans>
-                Shopgrid is a Telegram Mini App designed for the global market. Sell products directly from Telegram with Payme and Click payments, multilingual support (Uzbek/Russian/English), automatic tax calculation, and professional invoice generation.
+                Shopgrid is a Telegram Mini App designed for the global market. Sell products directly from Telegram with Payme and Click payments, multilingual support (Uzbek/Russian/English) and professional invoice generation.
               </Trans>
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

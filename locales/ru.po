@@ -14,50 +14,47 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. js-lingui-explicit-id
-#: src/app/[lang]/layout.tsx:19
-#: src/app/[lang]/layout.tsx:33
-#: src/app/[lang]/layout.tsx:42
+#: src/app/[lang]/layout.tsx:18
+#: src/app/[lang]/layout.tsx:32
+#: src/app/[lang]/layout.tsx:41
 msgid "Shopgrid - Sell Products Directly from Telegram"
 msgstr ""
 
 #. js-lingui-explicit-id
-#: src/app/[lang]/layout.tsx:20
+#: src/app/[lang]/layout.tsx:19
 msgid "Shopgrid is a Telegram Mini App that lets small businesses sell products directly from their Telegram channels or groups. AI-powered product listings, invoice generation, and built-in payment support."
 msgstr ""
 
 #. js-lingui-explicit-id
-#: src/app/[lang]/layout.tsx:31
+#: src/app/[lang]/layout.tsx:30
 msgid "Shopgrid Team"
 msgstr ""
 
 #. js-lingui-explicit-id
-#: src/app/[lang]/layout.tsx:34
-#: src/app/[lang]/layout.tsx:43
+#: src/app/[lang]/layout.tsx:33
+#: src/app/[lang]/layout.tsx:42
 msgid "Turn your Telegram channel into a store with AI-powered product listings and built-in payments."
+msgstr ""
+
+#: src/app/[lang]/features/page.tsx:75
+#: src/app/[lang]/features/page.tsx:299
+msgid "{text}"
 msgstr ""
 
 #: src/app/[lang]/components/Footer.tsx:183
 msgid "About Us"
 msgstr ""
 
-#: src/app/[lang]/features/page.tsx:357
+#: src/app/[lang]/features/page.tsx:353
 msgid "Accept payments with Payme, Click, and cash on delivery options"
 msgstr ""
 
-#: src/app/[lang]/features/page.tsx:176
+#: src/app/[lang]/features/page.tsx:174
 msgid "AI-Powered Product Tools"
 msgstr ""
 
 #: src/app/[lang]/components/Footer.tsx:217
 msgid "All rights reserved."
-msgstr ""
-
-#: src/app/[lang]/features/page.tsx:291
-msgid "Automatic theme adaptation to user preferences"
-msgstr ""
-
-#: src/app/[lang]/features/page.tsx:61
-msgid "Automatic theme synchronization with Telegram"
 msgstr ""
 
 #: src/app/[lang]/page.tsx:211
@@ -71,10 +68,6 @@ msgstr ""
 #: src/app/[lang]/components/Footer.tsx:125
 #: src/app/[lang]/components/Navigation.tsx:29
 msgid "Blog"
-msgstr ""
-
-#: src/app/[lang]/features/page.tsx:292
-msgid "Built-in Telegram invoice generation and payment"
 msgstr ""
 
 #: src/app/[lang]/contact/page.tsx:380
@@ -102,11 +95,11 @@ msgstr ""
 msgid "Compare All Features"
 msgstr ""
 
-#: src/app/[lang]/features/page.tsx:342
+#: src/app/[lang]/features/page.tsx:338
 msgid "Complete Payment & Invoice System"
 msgstr ""
 
-#: src/app/[lang]/features/page.tsx:109
+#: src/app/[lang]/features/page.tsx:107
 msgid "Comprehensive Admin Dashboard"
 msgstr ""
 
@@ -114,7 +107,7 @@ msgstr ""
 msgid "Connect with other Shopgrid users, share tips, and get inspired."
 msgstr ""
 
-#: src/app/[lang]/features/page.tsx:322
+#: src/app/[lang]/features/page.tsx:318
 msgid "Connect Your Channel"
 msgstr ""
 
@@ -134,7 +127,7 @@ msgstr ""
 msgid "Cookies"
 msgstr ""
 
-#: src/app/[lang]/features/page.tsx:230
+#: src/app/[lang]/features/page.tsx:228
 msgid "Create product listings with multilingual support (Uzbek, Russian, English) and rich formatting for descriptions."
 msgstr ""
 
@@ -146,11 +139,11 @@ msgstr ""
 msgid "Create Your Store Now"
 msgstr ""
 
-#: src/app/[lang]/features/page.tsx:140
+#: src/app/[lang]/features/page.tsx:138
 msgid "Customer Database"
 msgstr ""
 
-#: src/app/[lang]/features/page.tsx:282
+#: src/app/[lang]/features/page.tsx:280
 msgid "Deep integration with Telegram's ecosystem including theme adaptation, bot integration, and native Telegram Web App features for seamless user experience."
 msgstr ""
 
@@ -217,11 +210,11 @@ msgstr ""
 msgid "General Inquiry"
 msgstr ""
 
-#: src/app/[lang]/features/page.tsx:366
+#: src/app/[lang]/features/page.tsx:362
 msgid "Generate and send invoices directly through Telegram with automatic processing"
 msgstr ""
 
-#: src/app/[lang]/features/page.tsx:254
+#: src/app/[lang]/features/page.tsx:252
 msgid "Get AI-powered pricing recommendations based on market analysis, competition, and product features."
 msgstr ""
 
@@ -251,7 +244,7 @@ msgstr ""
 msgid "Get your Telegram store up and running in just 3 simple steps"
 msgstr ""
 
-#: src/app/[lang]/features/page.tsx:345
+#: src/app/[lang]/features/page.tsx:341
 msgid "Handle payments, generate invoices, and manage your finances all in one place"
 msgstr ""
 
@@ -279,15 +272,15 @@ msgstr ""
 msgid "Insights, tips, and success stories to help you grow your Telegram business. Stay updated with the latest features and best practices."
 msgstr ""
 
-#: src/app/[lang]/features/page.tsx:375
+#: src/app/[lang]/features/page.tsx:371
 msgid "Instant payment confirmation and order status updates through Telegram"
 msgstr ""
 
-#: src/app/[lang]/features/page.tsx:279
+#: src/app/[lang]/features/page.tsx:277
 msgid "Instant Telegram Integration"
 msgstr ""
 
-#: src/app/[lang]/features/page.tsx:252
+#: src/app/[lang]/features/page.tsx:250
 msgid "Intelligent Pricing"
 msgstr ""
 
@@ -327,19 +320,15 @@ msgstr ""
 msgid "Learn More"
 msgstr ""
 
-#: src/app/[lang]/features/page.tsx:179
+#: src/app/[lang]/features/page.tsx:177
 msgid "Let artificial intelligence handle the heavy lifting of product management"
 msgstr ""
 
-#: src/app/[lang]/features/page.tsx:57
-msgid "Main button integration for checkout actions"
-msgstr ""
-
-#: src/app/[lang]/features/page.tsx:142
+#: src/app/[lang]/features/page.tsx:140
 msgid "Manage customer information and purchase history with multilingual support"
 msgstr ""
 
-#: src/app/[lang]/features/page.tsx:112
+#: src/app/[lang]/features/page.tsx:110
 msgid "Manage your entire business from one powerful dashboard. Track sales, manage inventory, and analyze performance with real-time data and insights."
 msgstr ""
 
@@ -355,20 +344,12 @@ msgstr ""
 msgid "Most Popular"
 msgstr ""
 
-#: src/app/[lang]/features/page.tsx:296
-msgid "Multi-language support (Uzbek interface)"
-msgstr ""
-
-#: src/app/[lang]/features/page.tsx:228
+#: src/app/[lang]/features/page.tsx:226
 msgid "Multilingual Product Support"
 msgstr ""
 
 #: src/app/[lang]/contact/page.tsx:88
 msgid "Name *"
-msgstr ""
-
-#: src/app/[lang]/features/page.tsx:56
-msgid "Native Telegram Web App components and hooks"
 msgstr ""
 
 #: src/app/[lang]/pricing/page.tsx:221
@@ -379,7 +360,7 @@ msgstr ""
 msgid "Open in Telegram"
 msgstr ""
 
-#: src/app/[lang]/features/page.tsx:121
+#: src/app/[lang]/features/page.tsx:119
 msgid "Order Management"
 msgstr ""
 
@@ -391,7 +372,7 @@ msgstr ""
 msgid "Partnership"
 msgstr ""
 
-#: src/app/[lang]/features/page.tsx:355
+#: src/app/[lang]/features/page.tsx:351
 msgid "Payment Systems"
 msgstr ""
 
@@ -424,7 +405,7 @@ msgstr ""
 msgid "Pro"
 msgstr ""
 
-#: src/app/[lang]/features/page.tsx:123
+#: src/app/[lang]/features/page.tsx:121
 msgid "Process orders, update status, track pending/paid/shipped/cancelled orders with real-time updates"
 msgstr ""
 
@@ -432,7 +413,7 @@ msgstr ""
 msgid "Product"
 msgstr ""
 
-#: src/app/[lang]/features/page.tsx:149
+#: src/app/[lang]/features/page.tsx:147
 msgid "Product Performance"
 msgstr ""
 
@@ -448,7 +429,7 @@ msgstr ""
 msgid "Read More →"
 msgstr ""
 
-#: src/app/[lang]/features/page.tsx:402
+#: src/app/[lang]/features/page.tsx:398
 msgid "Ready to Experience These Features?"
 msgstr ""
 
@@ -461,11 +442,7 @@ msgstr ""
 msgid "Ready to Start Your Telegram Business?"
 msgstr ""
 
-#: src/app/[lang]/features/page.tsx:295
-msgid "Real-time order notifications and updates"
-msgstr ""
-
-#: src/app/[lang]/features/page.tsx:373
+#: src/app/[lang]/features/page.tsx:369
 msgid "Real-time Payment Processing"
 msgstr ""
 
@@ -473,11 +450,7 @@ msgstr ""
 msgid "Response Time"
 msgstr ""
 
-#: src/app/[lang]/features/page.tsx:62
-msgid "Responsive navigation optimized for mobile Telegram"
-msgstr ""
-
-#: src/app/[lang]/features/page.tsx:131
+#: src/app/[lang]/features/page.tsx:129
 msgid "Revenue Analytics"
 msgstr ""
 
@@ -513,12 +486,8 @@ msgstr ""
 msgid "Sending..."
 msgstr ""
 
-#: src/app/[lang]/features/page.tsx:58
-msgid "Settings button and back button native handling"
-msgstr ""
-
 #: src/app/[lang]/page.tsx:22
-msgid "Shopgrid is a Telegram Mini App designed for the global market. Sell products directly from Telegram with Payme and Click payments, multilingual support (Uzbek/Russian/English), automatic tax calculation, and professional invoice generation."
+msgid "Shopgrid is a Telegram Mini App designed for the global market. Sell products directly from Telegram with Payme and Click payments, multilingual support (Uzbek/Russian/English) and professional invoice generation."
 msgstr ""
 
 #: src/app/[lang]/features/page.tsx:47
@@ -533,15 +502,15 @@ msgstr ""
 msgid "Simply visit our Telegram bot at @Shopgrid_bot and follow the setup instructions. You can have your store running in minutes!"
 msgstr ""
 
-#: src/app/[lang]/features/page.tsx:204
+#: src/app/[lang]/features/page.tsx:202
 msgid "Smart Image Analysis"
 msgstr ""
 
-#: src/app/[lang]/features/page.tsx:419
+#: src/app/[lang]/features/page.tsx:415
 msgid "Start Free Trial"
 msgstr ""
 
-#: src/app/[lang]/features/page.tsx:405
+#: src/app/[lang]/features/page.tsx:401
 msgid "Start your free trial today and see how Shopgrid can transform your Telegram business."
 msgstr ""
 
@@ -569,20 +538,16 @@ msgstr ""
 msgid "Technical Support"
 msgstr ""
 
-#: src/app/[lang]/features/page.tsx:86
+#: src/app/[lang]/features/page.tsx:84
 msgid "Telegram Interface Preview"
 msgstr ""
 
-#: src/app/[lang]/features/page.tsx:364
+#: src/app/[lang]/features/page.tsx:360
 msgid "Telegram Invoice Generation"
 msgstr ""
 
 #: src/app/[lang]/contact/page.tsx:249
 msgid "Telegram Support"
-msgstr ""
-
-#: src/app/[lang]/features/page.tsx:290
-msgid "Telegram Web App integration with native UI"
 msgstr ""
 
 #: src/app/[lang]/features/page.tsx:44
@@ -605,15 +570,15 @@ msgstr ""
 msgid "The easiest way to sell products directly from your Telegram channels and groups."
 msgstr ""
 
-#: src/app/[lang]/features/page.tsx:133
+#: src/app/[lang]/features/page.tsx:131
 msgid "Track total revenue, average order value, and financial performance with detailed breakdowns"
 msgstr ""
 
-#: src/app/[lang]/features/page.tsx:206
+#: src/app/[lang]/features/page.tsx:204
 msgid "Upload product photos with automatic image optimization and CDN delivery for fast loading across all devices."
 msgstr ""
 
-#: src/app/[lang]/features/page.tsx:151
+#: src/app/[lang]/features/page.tsx:149
 msgid "View top-performing products, revenue tracking, and inventory insights"
 msgstr ""
 

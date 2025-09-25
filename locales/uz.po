@@ -14,49 +14,48 @@ msgstr ""
 "X-Generator: Poedit 3.7\n"
 
 #. js-lingui-explicit-id
-#: src/app/[lang]/layout.tsx:19 src/app/[lang]/layout.tsx:33
-#: src/app/[lang]/layout.tsx:42
+#: src/app/[lang]/layout.tsx:18
+#: src/app/[lang]/layout.tsx:32
+#: src/app/[lang]/layout.tsx:41
 msgid "Shopgrid - Sell Products Directly from Telegram"
 msgstr "Shopgrid - Mahsulotlarni bevosita Telegramdan soting"
 
 #. js-lingui-explicit-id
-#: src/app/[lang]/layout.tsx:20
+#: src/app/[lang]/layout.tsx:19
 msgid "Shopgrid is a Telegram Mini App that lets small businesses sell products directly from their Telegram channels or groups. AI-powered product listings, invoice generation, and built-in payment support."
 msgstr "Shopgrid - bu Telegram Mini ilovasi bo'lib, u kichik biznesga mahsulotlarni bevosita Telegram kanallari yoki guruhlari orqali sotish imkonini beradi. Sun'iy intellektga asoslangan mahsulotlar ro'yxati, hisob-fakturani yaratish va o'rnatilgan to'lovni qo'llab-quvvatlash."
 
 #. js-lingui-explicit-id
-#: src/app/[lang]/layout.tsx:31
+#: src/app/[lang]/layout.tsx:30
 msgid "Shopgrid Team"
 msgstr "Shopgrid jamoasi"
 
 #. js-lingui-explicit-id
-#: src/app/[lang]/layout.tsx:34 src/app/[lang]/layout.tsx:43
+#: src/app/[lang]/layout.tsx:33
+#: src/app/[lang]/layout.tsx:42
 msgid "Turn your Telegram channel into a store with AI-powered product listings and built-in payments."
 msgstr "Telegram kanalingizni sun'iy intellekt asosidagi mahsulotlar ro'yxati va o'rnatilgan to'lovlar bilan do'konga aylantiring."
+
+#: src/app/[lang]/features/page.tsx:75
+#: src/app/[lang]/features/page.tsx:299
+msgid "{text}"
+msgstr ""
 
 #: src/app/[lang]/components/Footer.tsx:183
 msgid "About Us"
 msgstr "Biz haqimizda"
 
-#: src/app/[lang]/features/page.tsx:357
+#: src/app/[lang]/features/page.tsx:353
 msgid "Accept payments with Payme, Click, and cash on delivery options"
 msgstr "Payme, Click va yetkazib berishda naqd pul bilan toʻlovlarni qabul qiling"
 
-#: src/app/[lang]/features/page.tsx:176
+#: src/app/[lang]/features/page.tsx:174
 msgid "AI-Powered Product Tools"
 msgstr "AI quvvatli mahsulot asboblari"
 
 #: src/app/[lang]/components/Footer.tsx:217
 msgid "All rights reserved."
 msgstr "Barcha huquqlar himoyalangan."
-
-#: src/app/[lang]/features/page.tsx:291
-msgid "Automatic theme adaptation to user preferences"
-msgstr "Mavzuni foydalanuvchi imtiyozlariga avtomatik moslashtirish"
-
-#: src/app/[lang]/features/page.tsx:61
-msgid "Automatic theme synchronization with Telegram"
-msgstr "Mavzuni Telegram bilan avtomatik sinxronlashtirish"
 
 #: src/app/[lang]/page.tsx:211
 msgid "Beautiful, intuitive interface designed for Telegram users"
@@ -69,11 +68,7 @@ msgstr "Hisob-kitob savoli"
 #: src/app/[lang]/components/Footer.tsx:125
 #: src/app/[lang]/components/Navigation.tsx:29
 msgid "Blog"
-msgstr ""
-
-#: src/app/[lang]/features/page.tsx:292
-msgid "Built-in Telegram invoice generation and payment"
-msgstr "Telegram orqali to’lash va telegram invoice"
+msgstr "Maqolalar"
 
 #: src/app/[lang]/contact/page.tsx:380
 msgid "Can I use Shopgrid with multiple Telegram channels?"
@@ -87,7 +82,8 @@ msgstr "Ish joylari"
 msgid "Choose the perfect plan for your business. Start free and upgrade as you grow. All plans include our core features with no hidden fees."
 msgstr "Biznesingiz uchun mukammal rejani tanlang. Bepul boshlang va o’sgan sari yangilang. Barcha rejalar hech qanday yashirin to'lovlarsiz asosiy xususiyatlarimizni o'z ichiga oladi."
 
-#: src/app/[lang]/components/Footer.tsx:160 src/app/[lang]/contact/page.tsx:289
+#: src/app/[lang]/components/Footer.tsx:160
+#: src/app/[lang]/contact/page.tsx:289
 msgid "Community"
 msgstr "Jamiyat"
 
@@ -99,11 +95,11 @@ msgstr "Kompaniya"
 msgid "Compare All Features"
 msgstr "Barcha xususiyatlarni solishtiring"
 
-#: src/app/[lang]/features/page.tsx:342
+#: src/app/[lang]/features/page.tsx:338
 msgid "Complete Payment & Invoice System"
 msgstr "Toʻliq toʻlov va hisob-faktura tizimi"
 
-#: src/app/[lang]/features/page.tsx:109
+#: src/app/[lang]/features/page.tsx:107
 msgid "Comprehensive Admin Dashboard"
 msgstr "Keng qamrovli boshqaruv paneli"
 
@@ -111,7 +107,7 @@ msgstr "Keng qamrovli boshqaruv paneli"
 msgid "Connect with other Shopgrid users, share tips, and get inspired."
 msgstr "Boshqa Shopgrid foydalanuvchilari bilan bog'laning, maslahatlar bilan o'rtoqlashing va ilhom oling."
 
-#: src/app/[lang]/features/page.tsx:322
+#: src/app/[lang]/features/page.tsx:318
 msgid "Connect Your Channel"
 msgstr "Kanalingizni ulaning"
 
@@ -129,9 +125,9 @@ msgstr "Biz bilan bog'lanish"
 
 #: src/app/[lang]/components/Footer.tsx:236
 msgid "Cookies"
-msgstr ""
+msgstr "Brauzer fayllari"
 
-#: src/app/[lang]/features/page.tsx:230
+#: src/app/[lang]/features/page.tsx:228
 msgid "Create product listings with multilingual support (Uzbek, Russian, English) and rich formatting for descriptions."
 msgstr "Ko'p tilli (o'zbek, rus, ingliz) qo'llab-quvvatlash va tavsiflar uchun boy formatga ega mahsulotlar ro'yxatini yarating."
 
@@ -143,11 +139,11 @@ msgstr "Do'koningizni yarating"
 msgid "Create Your Store Now"
 msgstr "Hoziroq online do’kiningizni yarating"
 
-#: src/app/[lang]/features/page.tsx:140
+#: src/app/[lang]/features/page.tsx:138
 msgid "Customer Database"
 msgstr "Mijoz ma'lumotlar bazasi"
 
-#: src/app/[lang]/features/page.tsx:282
+#: src/app/[lang]/features/page.tsx:280
 msgid "Deep integration with Telegram's ecosystem including theme adaptation, bot integration, and native Telegram Web App features for seamless user experience."
 msgstr "Telegram ekotizimiga chuqur integratsiya, jumladan mavzuni moslashtirish, bot integratsiyasi va uzluksiz foydalanuvchi tajribasi uchun Telegram veb-ilovasining mahalliy xususiyatlari."
 
@@ -159,7 +155,8 @@ msgstr "To'lovlarni qaytarishni taklif qilasizmi?"
 msgid "Email *"
 msgstr ""
 
-#: src/app/[lang]/components/Footer.tsx:168 src/app/[lang]/contact/page.tsx:217
+#: src/app/[lang]/components/Footer.tsx:168
+#: src/app/[lang]/contact/page.tsx:217
 msgid "Email Support"
 msgstr "Elektron pochta yordami"
 
@@ -185,16 +182,16 @@ msgstr ""
 
 #: src/app/[lang]/contact/page.tsx:143
 msgid "Feature Request"
-msgstr ""
+msgstr "Yangi imkoniyat so‘rovi"
 
 #: src/app/[lang]/blog/page.tsx:34
 msgid "Featured Article"
-msgstr ""
+msgstr "Asosiy maqola"
 
 #: src/app/[lang]/components/Footer.tsx:99
 #: src/app/[lang]/components/Navigation.tsx:27
 msgid "Features"
-msgstr ""
+msgstr "Imkoniyatlar"
 
 #: src/app/[lang]/pricing/page.tsx:278
 msgid "Free"
@@ -204,7 +201,8 @@ msgstr ""
 msgid "Free users can list up to 10 products, Starter users up to 100, and Pro users have unlimited products."
 msgstr "Bepul foydalanuvchilar 10 tagacha mahsulotni, Starter foydalanuvchilari 100 tagacha, Pro foydalanuvchilari esa cheksiz mahsulotlarga ega boʻlishlari mumkin."
 
-#: src/app/[lang]/contact/page.tsx:350 src/app/[lang]/pricing/page.tsx:380
+#: src/app/[lang]/contact/page.tsx:350
+#: src/app/[lang]/pricing/page.tsx:380
 msgid "Frequently Asked Questions"
 msgstr "Tez-tez so'raladigan savollar"
 
@@ -212,11 +210,11 @@ msgstr "Tez-tez so'raladigan savollar"
 msgid "General Inquiry"
 msgstr "Umumiy so'rov"
 
-#: src/app/[lang]/features/page.tsx:366
+#: src/app/[lang]/features/page.tsx:362
 msgid "Generate and send invoices directly through Telegram with automatic processing"
 msgstr "Avtomatik ishlov berish orqali to'g'ridan-to'g'ri Telegram orqali hisob-fakturalarni yarating va yuboring"
 
-#: src/app/[lang]/features/page.tsx:254
+#: src/app/[lang]/features/page.tsx:252
 msgid "Get AI-powered pricing recommendations based on market analysis, competition, and product features."
 msgstr "Bozor tahlili, raqobat va mahsulot xususiyatlariga asoslangan sunʼiy intellekt asosidagi narx boʻyicha tavsiyalarni oling."
 
@@ -246,7 +244,7 @@ msgstr "Oxirgi maslahatlar, yangilanishlar va muvaffaqiyat hikoyalarini pochta q
 msgid "Get your Telegram store up and running in just 3 simple steps"
 msgstr "Telegram doʻkoningizni 3 oddiy qadamda ishga tushiring"
 
-#: src/app/[lang]/features/page.tsx:345
+#: src/app/[lang]/features/page.tsx:341
 msgid "Handle payments, generate invoices, and manage your finances all in one place"
 msgstr "Bir joyda toʻlovlarni boshqaring, hisob-fakturalarni yarating va moliyangizni boshqaring"
 
@@ -260,7 +258,7 @@ msgstr "Yordam markazi"
 
 #: src/app/[lang]/components/Navigation.tsx:26
 msgid "Home"
-msgstr ""
+msgstr "Bosh sahifa"
 
 #: src/app/[lang]/contact/page.tsx:360
 msgid "How do I get started with Shopgrid?"
@@ -274,15 +272,15 @@ msgstr "Bu qanday ishlaydi"
 msgid "Insights, tips, and success stories to help you grow your Telegram business. Stay updated with the latest features and best practices."
 msgstr "Telegram biznesingizni rivojlantirishga yordam beradigan tushunchalar, maslahatlar va muvaffaqiyat hikoyalari. Eng soʻnggi funksiyalar va eng yaxshi amaliyotlardan xabardor boʻling."
 
-#: src/app/[lang]/features/page.tsx:375
+#: src/app/[lang]/features/page.tsx:371
 msgid "Instant payment confirmation and order status updates through Telegram"
 msgstr "Telegram orqali darhol toʻlovni tasdiqlash va buyurtma holatini yangilash"
 
-#: src/app/[lang]/features/page.tsx:279
+#: src/app/[lang]/features/page.tsx:277
 msgid "Instant Telegram Integration"
 msgstr "Tezkor Telegram integratsiyasi"
 
-#: src/app/[lang]/features/page.tsx:252
+#: src/app/[lang]/features/page.tsx:250
 msgid "Intelligent Pricing"
 msgstr "Intellektual narxlash"
 
@@ -322,19 +320,15 @@ msgstr "Shopgrid-dan foydalanayotgan minglab kompaniyalarga qo'shiling. Bepul si
 msgid "Learn More"
 msgstr "Batafsil ma'lumot"
 
-#: src/app/[lang]/features/page.tsx:179
+#: src/app/[lang]/features/page.tsx:177
 msgid "Let artificial intelligence handle the heavy lifting of product management"
 msgstr "Siniy intelekt orqali o’gir ishlaringizni osonlashtiring"
 
-#: src/app/[lang]/features/page.tsx:57
-msgid "Main button integration for checkout actions"
-msgstr "Hisob-kitoblar uchun MAIN BUTTON integratsiyasi"
-
-#: src/app/[lang]/features/page.tsx:142
+#: src/app/[lang]/features/page.tsx:140
 msgid "Manage customer information and purchase history with multilingual support"
 msgstr "Ko'p tilli yordam yordamida mijozlar ma'lumotlarini va xaridlar tarixini boshqaring"
 
-#: src/app/[lang]/features/page.tsx:112
+#: src/app/[lang]/features/page.tsx:110
 msgid "Manage your entire business from one powerful dashboard. Track sales, manage inventory, and analyze performance with real-time data and insights."
 msgstr "Butun biznesingizni bitta kuchli boshqaruv panelidan boshqaring. Savdolarni kuzatib boring, inventarni boshqaring va real vaqtda maʼlumotlar va tushunchalar yordamida unumdorlikni tahlil qiling."
 
@@ -350,11 +344,7 @@ msgstr "Monthly"
 msgid "Most Popular"
 msgstr "Eng mashhur"
 
-#: src/app/[lang]/features/page.tsx:296
-msgid "Multi-language support (Uzbek interface)"
-msgstr "Ko'p tilli qo'llab-quvvatlash (o'zbek interfeysi)"
-
-#: src/app/[lang]/features/page.tsx:228
+#: src/app/[lang]/features/page.tsx:226
 msgid "Multilingual Product Support"
 msgstr "Ko'p tilli mahsulotni qo'llab-quvvatlash"
 
@@ -362,19 +352,15 @@ msgstr "Ko'p tilli mahsulotni qo'llab-quvvatlash"
 msgid "Name *"
 msgstr "Name *"
 
-#: src/app/[lang]/features/page.tsx:56
-msgid "Native Telegram Web App components and hooks"
-msgstr "Native Telegram Web App komponentlari va telegram hooklar"
-
 #: src/app/[lang]/pricing/page.tsx:221
 msgid "Not included:"
-msgstr "Kirilmagan:"
+msgstr "Qo’shilmagan:"
 
 #: src/app/[lang]/components/FloatingTelegramButton.tsx:40
 msgid "Open in Telegram"
 msgstr "Telegramda oching"
 
-#: src/app/[lang]/features/page.tsx:121
+#: src/app/[lang]/features/page.tsx:119
 msgid "Order Management"
 msgstr "Buyurtmani boshqarish"
 
@@ -386,7 +372,7 @@ msgstr "Boshqa"
 msgid "Partnership"
 msgstr "Hamkorlik"
 
-#: src/app/[lang]/features/page.tsx:355
+#: src/app/[lang]/features/page.tsx:351
 msgid "Payment Systems"
 msgstr "To’lov tizimlari"
 
@@ -396,7 +382,7 @@ msgstr "Mashhur mavzular"
 
 #: src/app/[lang]/features/page.tsx:22
 msgid "Powerful Features for <0>Telegram Commerce</0>"
-msgstr ""
+msgstr "<0>Telegram Commerce</0> uchun kuchli imkoniyatlar"
 
 #: src/app/[lang]/page.tsx:57
 msgid "Powerful features for businesses using Telegram's ecosystem"
@@ -419,7 +405,7 @@ msgstr "Maxfiylik siyosati"
 msgid "Pro"
 msgstr ""
 
-#: src/app/[lang]/features/page.tsx:123
+#: src/app/[lang]/features/page.tsx:121
 msgid "Process orders, update status, track pending/paid/shipped/cancelled orders with real-time updates"
 msgstr "Buyurtmalarni qayta ishlash, holatini yangilash, real vaqtda yangilanishlar bilan kutilayotgan/to‘langan/jo‘natilgan/bekor qilingan buyurtmalarni kuzatib boring."
 
@@ -427,7 +413,7 @@ msgstr "Buyurtmalarni qayta ishlash, holatini yangilash, real vaqtda yangilanish
 msgid "Product"
 msgstr "Mahsulot"
 
-#: src/app/[lang]/features/page.tsx:149
+#: src/app/[lang]/features/page.tsx:147
 msgid "Product Performance"
 msgstr "Mahsulot unumdorligi"
 
@@ -437,17 +423,18 @@ msgstr "Umumiy savollarga tezkor javoblar"
 
 #: src/app/[lang]/blog/page.tsx:67
 msgid "Read More"
-msgstr ""
+msgstr "Ko'proq o'qish"
 
 #: src/app/[lang]/blog/page.tsx:127
 msgid "Read More →"
 msgstr "Batafsil →"
 
-#: src/app/[lang]/features/page.tsx:402
+#: src/app/[lang]/features/page.tsx:398
 msgid "Ready to Experience These Features?"
 msgstr "Ushbu xususiyatlardan foydalanishga tayyormisiz?"
 
-#: src/app/[lang]/page.tsx:326 src/app/[lang]/pricing/page.tsx:432
+#: src/app/[lang]/page.tsx:326
+#: src/app/[lang]/pricing/page.tsx:432
 msgid "Ready to Start Selling on Telegram?"
 msgstr "Telegramda sotishni boshlashga tayyormisiz?"
 
@@ -455,11 +442,7 @@ msgstr "Telegramda sotishni boshlashga tayyormisiz?"
 msgid "Ready to Start Your Telegram Business?"
 msgstr "Telegram biznesingizni boshlashga tayyormisiz?"
 
-#: src/app/[lang]/features/page.tsx:295
-msgid "Real-time order notifications and updates"
-msgstr "Haqiqiy vaqtda buyurtma bildirishnomalari va yangilanishlari"
-
-#: src/app/[lang]/features/page.tsx:373
+#: src/app/[lang]/features/page.tsx:369
 msgid "Real-time Payment Processing"
 msgstr "Haqiqiy vaqtda to'lovni qayta ishlash"
 
@@ -467,11 +450,7 @@ msgstr "Haqiqiy vaqtda to'lovni qayta ishlash"
 msgid "Response Time"
 msgstr "Javob vaqti"
 
-#: src/app/[lang]/features/page.tsx:62
-msgid "Responsive navigation optimized for mobile Telegram"
-msgstr "Mobil Telegram uchun optimallashtirilgan sezgir navigatsiya"
-
-#: src/app/[lang]/features/page.tsx:131
+#: src/app/[lang]/features/page.tsx:129
 msgid "Revenue Analytics"
 msgstr "Daromad tahlili"
 
@@ -493,7 +472,7 @@ msgstr "Mavzuni tanlang"
 
 #: src/app/[lang]/page.tsx:16
 msgid "Sell Products Directly from <0>Telegram</0>"
-msgstr ""
+msgstr "Mahsulotlarni to'g'ridan-to'g'ri <0>Telegram</0> orqali soting"
 
 #: src/app/[lang]/contact/page.tsx:177
 msgid "Send Message"
@@ -507,13 +486,9 @@ msgstr "Bizga xabar yuboring"
 msgid "Sending..."
 msgstr "Yuborilmoqda..."
 
-#: src/app/[lang]/features/page.tsx:58
-msgid "Settings button and back button native handling"
-msgstr "Sozlamalar tugmasi va orqaga tugmasi telegram native orqali oson boshqaruv"
-
 #: src/app/[lang]/page.tsx:22
-msgid "Shopgrid is a Telegram Mini App designed for the global market. Sell products directly from Telegram with Payme and Click payments, multilingual support (Uzbek/Russian/English), automatic tax calculation, and professional invoice generation."
-msgstr "Shopgrid — jahon bozori uchun moʻljallangan Telegram Mini ilovasi. Payme va Click toʻlovlari, koʻp tilli yordam (oʻzbek/rus/ingliz), avtomatik soliqni hisoblash va professional hisob-fakturalar yaratish bilan mahsulotlarni bevosita Telegram’dan soting."
+msgid "Shopgrid is a Telegram Mini App designed for the global market. Sell products directly from Telegram with Payme and Click payments, multilingual support (Uzbek/Russian/English) and professional invoice generation."
+msgstr "Shopgrid — global bozor uchun moʻljallangan Telegram Mini ilovasi. Payme va Click toʻlovlari, koʻp tilli yordam (oʻzbek/rus/ingliz) va professional hisob-fakturalar yaratish orqali mahsulotlarni bevosita Telegram’dan soting."
 
 #: src/app/[lang]/features/page.tsx:47
 msgid "Shopgrid uses Telegram Web App SDK for native integration with features like main button controls, settings button, back button handling, and theme synchronization for optimal user experience."
@@ -521,21 +496,21 @@ msgstr "Shopgrid Telegram Web App SDK-dan foydalanuvchining optimal tajribasi uc
 
 #: src/app/[lang]/pricing/page.tsx:83
 msgid "Simple, Transparent <0>Pricing</0>"
-msgstr ""
+msgstr "Oddiy va shaffof <0>Narxlar</0>"
 
 #: src/app/[lang]/contact/page.tsx:362
 msgid "Simply visit our Telegram bot at @Shopgrid_bot and follow the setup instructions. You can have your store running in minutes!"
 msgstr "Shunchaki @Shopgrid_bot manzilidagi Telegram botimizga tashrif buyuring va sozlash ko‘rsatmalariga amal qiling. Do'koningizni bir necha daqiqada ishga tushirishingiz mumkin!"
 
-#: src/app/[lang]/features/page.tsx:204
+#: src/app/[lang]/features/page.tsx:202
 msgid "Smart Image Analysis"
 msgstr "Aqlli tasvir tahlili"
 
-#: src/app/[lang]/features/page.tsx:419
+#: src/app/[lang]/features/page.tsx:415
 msgid "Start Free Trial"
 msgstr "Bepul sinovni boshlang"
 
-#: src/app/[lang]/features/page.tsx:405
+#: src/app/[lang]/features/page.tsx:401
 msgid "Start your free trial today and see how Shopgrid can transform your Telegram business."
 msgstr "Bepul sinov muddatini bugun boshlang va Shopgrid Telegram biznesingizni qanday o'zgartirishi mumkinligini ko'ring."
 
@@ -563,21 +538,17 @@ msgstr "Qo'llab-quvvatlash"
 msgid "Technical Support"
 msgstr "Texnik yordam"
 
-#: src/app/[lang]/features/page.tsx:86
+#: src/app/[lang]/features/page.tsx:84
 msgid "Telegram Interface Preview"
 msgstr "Telegram interfeysini oldindan ko'rish"
 
-#: src/app/[lang]/features/page.tsx:364
+#: src/app/[lang]/features/page.tsx:360
 msgid "Telegram Invoice Generation"
 msgstr "Telegram hisob-fakturasini yaratish"
 
 #: src/app/[lang]/contact/page.tsx:249
 msgid "Telegram Support"
 msgstr "Telegram qo'llab-quvvatlash"
-
-#: src/app/[lang]/features/page.tsx:290
-msgid "Telegram Web App integration with native UI"
-msgstr "Telegram veb-ilovasining mahalliy UI bilan integratsiyasi"
 
 #: src/app/[lang]/features/page.tsx:44
 msgid "Telegram-First User Experience"
@@ -599,15 +570,15 @@ msgstr "Xizmat shartlari"
 msgid "The easiest way to sell products directly from your Telegram channels and groups."
 msgstr "Mahsulotlarni bevosita Telegram kanallaringiz va guruhlaringizdan sotishning eng oson yo'li."
 
-#: src/app/[lang]/features/page.tsx:133
+#: src/app/[lang]/features/page.tsx:131
 msgid "Track total revenue, average order value, and financial performance with detailed breakdowns"
 msgstr "Umumiy daromad, o'rtacha buyurtma qiymati va moliyaviy natijalarni batafsil taqsimot bilan kuzatib boring"
 
-#: src/app/[lang]/features/page.tsx:206
+#: src/app/[lang]/features/page.tsx:204
 msgid "Upload product photos with automatic image optimization and CDN delivery for fast loading across all devices."
 msgstr "Barcha qurilmalarda tez yuklash uchun avtomatik tasvir optimallashtirish va CDN yetkazib berish bilan mahsulot fotosuratlarini yuklang."
 
-#: src/app/[lang]/features/page.tsx:151
+#: src/app/[lang]/features/page.tsx:149
 msgid "View top-performing products, revenue tracking, and inventory insights"
 msgstr "Eng yaxshi mahsulotlar, daromadlarni kuzatish va inventar haqidagi ma'lumotlarni ko'ring"
 
