@@ -124,7 +124,7 @@ export default async function BlogPage({ params }: { params: Promise<{ lang: str
                         href={`/blog/${post.id}`}
                         className="text-primary hover:text-primary/80 font-medium text-sm transition-colors"
                       >
-                        <Trans>Read More →</Trans>
+                        <Trans>Read More</Trans> →
                       </Link>
                     </div>
                   </div>
