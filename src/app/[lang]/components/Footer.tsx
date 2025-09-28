@@ -1,6 +1,20 @@
+"use client";
+
 import Link from "next/link";
+import { Trans } from "@lingui/react/macro";
+import { usePathname } from "next/navigation";
+import { useMemo } from "react";
 
 export default function Footer() {
+  const pathname = usePathname();
+  const currentLocale = useMemo(() => {
+    const segments = pathname.split("/").filter(Boolean);
+    return segments[0] ?? "en";
+  }, [pathname]);
+  const withLocale = (path: string) => {
+    const normalized = path.startsWith("/") ? path.slice(1) : path;
+    return `/${currentLocale}/${normalized}`.replace(/\/$/, "");
+  };
   return (
     <footer className="bg-secondary border-t border-border">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -22,8 +36,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-muted-foreground mb-4">
-              The easiest way to sell products directly from your Telegram
-              channels and groups.
+              <Trans>The easiest way to sell products directly from your Telegram channels and groups.</Trans>
             </p>
             <div className="flex space-x-4">
               <Link
@@ -76,22 +89,22 @@ export default function Footer() {
 
           {/* Product */}
           <div>
-            <h3 className="font-semibold text-foreground mb-4">Product</h3>
+            <h3 className="font-semibold text-foreground mb-4"><Trans>Product</Trans></h3>
             <ul className="space-y-2">
               <li>
                 <Link
-                  href="/features"
+                  href={withLocale("features")}
                   className="text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  Features
+                  <Trans>Features</Trans>
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/pricing"
+                  href={withLocale("pricing")}
                   className="text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  Pricing
+                  <Trans>Pricing</Trans>
                 </Link>
               </li>
               <li>
@@ -101,15 +114,15 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  Get Started
+                  <Trans>Get Started</Trans>
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/blog"
+                  href={withLocale("blog")}
                   className="text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  Blog
+                  <Trans>Blog</Trans>
                 </Link>
               </li>
             </ul>
@@ -117,14 +130,14 @@ export default function Footer() {
 
           {/* Support */}
           <div>
-            <h3 className="font-semibold text-foreground mb-4">Support</h3>
+            <h3 className="font-semibold text-foreground mb-4"><Trans>Support</Trans></h3>
             <ul className="space-y-2">
               <li>
                 <Link
-                  href="/contact"
+                  href={withLocale("contact")}
                   className="text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  Contact Us
+                  <Trans>Contact Us</Trans>
                 </Link>
               </li>
               <li>
@@ -134,7 +147,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  Help Center
+                  <Trans>Help Center</Trans>
                 </Link>
               </li>
               <li>
@@ -144,7 +157,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  Community
+                  <Trans>Community</Trans>
                 </Link>
               </li>
               <li>
@@ -152,7 +165,7 @@ export default function Footer() {
                   href="mailto:support@Shopgrid.com"
                   className="text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  Email Support
+                  <Trans>Email Support</Trans>
                 </a>
               </li>
             </ul>
@@ -160,38 +173,38 @@ export default function Footer() {
 
           {/* Company */}
           <div>
-            <h3 className="font-semibold text-foreground mb-4">Company</h3>
+            <h3 className="font-semibold text-foreground mb-4"><Trans>Company</Trans></h3>
             <ul className="space-y-2">
               <li>
                 <Link
-                  href="/about"
+                  href={withLocale("about")}
                   className="text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  About Us
+                  <Trans>About Us</Trans>
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/privacy"
+                  href={withLocale("privacy")}
                   className="text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  Privacy Policy
+                  <Trans>Privacy Policy</Trans>
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/terms"
+                  href={withLocale("terms")}
                   className="text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  Terms of Service
+                  <Trans>Terms of Service</Trans>
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/careers"
+                  href={withLocale("careers")}
                   className="text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  Careers
+                  <Trans>Careers</Trans>
                 </Link>
               </li>
             </ul>
@@ -201,26 +214,26 @@ export default function Footer() {
         <div className="border-t border-border mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-muted-foreground text-sm">
-              © {new Date().getFullYear()} Shopgrid. All rights reserved.
+              © {new Date().getFullYear()} Shopgrid. <Trans>All rights reserved.</Trans>
             </p>
             <div className="flex items-center space-x-6 mt-4 md:mt-0">
               <Link
-                href="/privacy"
+                href={withLocale("privacy")}
                 className="text-muted-foreground hover:text-foreground text-sm transition-colors"
               >
-                Privacy
+                <Trans>Privacy</Trans>
               </Link>
               <Link
-                href="/terms"
+                href={withLocale("terms")}
                 className="text-muted-foreground hover:text-foreground text-sm transition-colors"
               >
-                Terms
+                <Trans>Terms</Trans>
               </Link>
               <Link
-                href="/cookies"
+                href={withLocale("cookies")}
                 className="text-muted-foreground hover:text-foreground text-sm transition-colors"
               >
-                Cookies
+                <Trans>Cookies</Trans>
               </Link>
             </div>
           </div>

@@ -1,7 +1,7 @@
 "use client";
 
-import Navigation from "@/components/Navigation";
 import Link from "next/link";
+import { Trans } from "@lingui/react/macro";
 import { useState } from "react";
 
 export default function PricingPage() {
@@ -75,19 +75,22 @@ export default function PricingPage() {
 
   return (
     <div className="min-h-screen bg-background">
-      <Navigation />
-
       {/* Hero Section */}
       <section className="pt-24 pb-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="text-center">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground mb-6">
-              Simple, Transparent <span className="text-primary">Pricing</span>
+              <Trans>
+                Simple, Transparent{" "}
+                <span className="text-primary">Pricing</span>
+              </Trans>
             </h1>
             <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto">
-              Choose the perfect plan for your business. Start free and upgrade
-              as you grow. All plans include our core features with no hidden
-              fees.
+              <Trans>
+                Choose the perfect plan for your business. Start free and
+                upgrade as you grow. All plans include our core features with no
+                hidden fees.
+              </Trans>
             </p>
 
             {/* Billing Toggle */}
@@ -97,7 +100,7 @@ export default function PricingPage() {
                   !isYearly ? "text-foreground" : "text-muted-foreground"
                 }`}
               >
-                Monthly
+                <Trans>Monthly</Trans>
               </span>
               <button
                 onClick={() => setIsYearly(!isYearly)}
@@ -116,9 +119,9 @@ export default function PricingPage() {
                   isYearly ? "text-foreground" : "text-muted-foreground"
                 }`}
               >
-                Yearly
+                <Trans>Yearly</Trans>
                 <span className="ml-2 text-xs bg-primary text-primary-foreground px-2 py-1 rounded-full font-medium">
-                  Save 20%
+                  <Trans>Save 20%</Trans>
                 </span>
               </span>
             </div>
@@ -142,7 +145,7 @@ export default function PricingPage() {
                 {plan.popular && (
                   <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
                     <span className="bg-primary text-primary-foreground px-4 py-1 rounded-full text-sm font-medium">
-                      Most Popular
+                      <Trans>Most Popular</Trans>
                     </span>
                   </div>
                 )}
@@ -189,7 +192,7 @@ export default function PricingPage() {
 
                 <div className="space-y-4">
                   <h4 className="font-semibold text-foreground">
-                    What's included:
+                    <Trans>What's included:</Trans>
                   </h4>
                   <ul className="space-y-3">
                     {plan.features.map((feature, featureIndex) => (
@@ -215,7 +218,7 @@ export default function PricingPage() {
                   {plan.notIncluded.length > 0 && (
                     <>
                       <h4 className="font-semibold text-foreground mt-6">
-                        Not included:
+                        <Trans>Not included:</Trans>
                       </h4>
                       <ul className="space-y-3">
                         {plan.notIncluded.map((feature, featureIndex) => (
@@ -254,11 +257,13 @@ export default function PricingPage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">
-              Compare All Features
+              <Trans>Compare All Features</Trans>
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              See exactly what's included in each plan to make the best choice
-              for your business
+              <Trans>
+                See exactly what's included in each plan to make the best choice
+                for your business
+              </Trans>
             </p>
           </div>
 
@@ -267,16 +272,16 @@ export default function PricingPage() {
               <thead>
                 <tr className="border-b border-border">
                   <th className="text-left p-6 font-semibold text-foreground">
-                    Feature
+                    <Trans>Feature</Trans>
                   </th>
                   <th className="text-center p-6 font-semibold text-foreground">
-                    Free
+                    <Trans>Free</Trans>
                   </th>
                   <th className="text-center p-6 font-semibold text-foreground">
-                    Starter
+                    <Trans>Starter</Trans>
                   </th>
                   <th className="text-center p-6 font-semibold text-foreground">
-                    Pro
+                    <Trans>Pro</Trans>
                   </th>
                 </tr>
               </thead>
@@ -372,10 +377,12 @@ export default function PricingPage() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">
-              Frequently Asked Questions
+              <Trans>Frequently Asked Questions</Trans>
             </h2>
             <p className="text-xl text-muted-foreground">
-              Everything you need to know about our pricing and plans
+              <Trans>
+                Everything you need to know about our pricing and plans
+              </Trans>
             </p>
           </div>
 
@@ -422,11 +429,13 @@ export default function PricingPage() {
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-primary">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl sm:text-4xl font-bold text-primary-foreground mb-4">
-            Ready to Start Selling on Telegram?
+            <Trans>Ready to Start Selling on Telegram?</Trans>
           </h2>
           <p className="text-xl text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
-            Join thousands of businesses already using Shopgrid. Start your free
-            trial today.
+            <Trans>
+              Join thousands of businesses already using Shopgrid. Start your
+              free trial today.
+            </Trans>
           </p>
           <Link
             href="https://t.me/Shopgrid_bot"

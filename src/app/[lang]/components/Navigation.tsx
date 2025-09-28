@@ -1,21 +1,33 @@
 "use client";
 
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
+import { Trans } from "@lingui/react/macro";
 // import Image from "next/image";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const pathname = usePathname();
 
+  const currentLocale = useMemo(() => {
+    const segments = pathname.split("/").filter(Boolean);
+    return segments[0] ?? "en";
+  }, [pathname]);
+
+  const withLocale = (path: string) => {
+    const normalized = path.startsWith("/") ? path.slice(1) : path;
+    return `/${currentLocale}/${normalized}`.replace(/\/$/, "");
+  };
+
   const navItems = [
-    { href: "/", label: "Home" },
-    { href: "/features", label: "Features" },
-    { href: "/pricing", label: "Pricing" },
-    { href: "/blog", label: "Blog" },
-    { href: "/contact", label: "Contact" },
+    { href: withLocale(""), label: <Trans>Home</Trans> },
+    { href: withLocale("features"), label: <Trans>Features</Trans> },
+    { href: withLocale("pricing"), label: <Trans>Pricing</Trans> },
+    { href: withLocale("blog"), label: <Trans>Blog</Trans> },
+    { href: withLocale("contact"), label: <Trans>Contact</Trans> },
   ];
 
   const isActive = (href: string) => pathname === href;
@@ -45,7 +57,7 @@ export default function Navigation() {
             ))}
           </div>
 
-          {/* CTA Button */}
+          {/* CTA + Lang */}
           <div className="hidden md:flex items-center space-x-4">
             <Link
               href="https://t.me/Shopgrid_bot"
@@ -53,8 +65,9 @@ export default function Navigation() {
               rel="noopener noreferrer"
               className="bg-primary text-primary-foreground px-4 py-2 rounded-lg text-sm font-medium hover:bg-primary/90 transition-colors"
             >
-              Get Started
+              <Trans>Get Started</Trans>
             </Link>
+            <LanguageSwitcher />
           </div>
 
           {/* Mobile menu button */}
@@ -113,8 +126,11 @@ export default function Navigation() {
                 className="block px-3 py-2 mt-4 bg-primary text-primary-foreground rounded-md text-base font-medium hover:bg-primary/90 transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Get Started
+                <Trans>Get Started</Trans>
               </Link>
+              <div className="px-3 py-2">
+                <LanguageSwitcher />
+              </div>
             </div>
           </div>
         )}
