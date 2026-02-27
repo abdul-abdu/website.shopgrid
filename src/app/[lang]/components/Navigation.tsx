@@ -63,7 +63,7 @@ export default function Navigation() {
               href="https://t.me/Shopgrid_bot"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-primary text-primary-foreground px-4 py-2 rounded-lg text-sm font-medium hover:bg-primary/90 transition-colors"
+              className="bg-primary text-primary-foreground px-5 py-2 rounded-xl text-sm font-medium hover:bg-primary/90 transition-all shadow-sm shadow-primary/20"
             >
               <Trans>Get Started</Trans>
             </Link>
