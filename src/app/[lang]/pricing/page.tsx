@@ -11,8 +11,8 @@ export default function PricingPage() {
     {
       name: "Free",
       description: "Perfect for getting started",
-      monthlyPrice: 0,
-      yearlyPrice: 0,
+      monthlyPrice: "0",
+      yearlyPrice: "0",
       features: [
         "Up to 10 products",
         "Telegram integration",
@@ -76,20 +76,19 @@ export default function PricingPage() {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
-      <section className="pt-24 pb-16 px-4 sm:px-6 lg:px-8">
+      <section className="pt-28 pb-16 px-4 sm:px-6 lg:px-8 hero-gradient">
         <div className="max-w-7xl mx-auto">
           <div className="text-center">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground mb-6">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-foreground mb-6 tracking-tight">
               <Trans>
                 Simple, Transparent{" "}
-                <span className="text-primary">Pricing</span>
+                <span className="gradient-text">Pricing</span>
               </Trans>
             </h1>
-            <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto">
+            <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
               <Trans>
                 Choose the perfect plan for your business. Start free and
-                upgrade as you grow. All plans include our core features with no
-                hidden fees.
+                upgrade as you grow. No hidden fees.
               </Trans>
             </p>
 
@@ -132,14 +131,14 @@ export default function PricingPage() {
       {/* Pricing Cards */}
       <section className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {plans.map((plan, index) => (
               <div
                 key={index}
-                className={`relative bg-background rounded-lg border-2 p-8 ${
+                className={`relative bg-background rounded-2xl border-2 p-8 transition-all ${
                   plan.popular
-                    ? "border-primary shadow-lg scale-105"
-                    : "border-border hover:border-primary/50 transition-colors"
+                    ? "border-primary shadow-xl shadow-primary/10 scale-[1.03]"
+                    : "border-border hover:border-primary/30 hover:shadow-lg"
                 }`}
               >
                 {plan.popular && (
@@ -159,13 +158,23 @@ export default function PricingPage() {
                   </p>
 
                   <div className="mb-6">
-                    <span className="text-4xl font-bold text-foreground">
-                      {isYearly ? plan.yearlyPrice : plan.monthlyPrice} Sum
-                    </span>
-                    {plan.monthlyPrice !== "0" && (
-                      <span className="text-muted-foreground">
-                        /{isYearly ? "year" : "month"}
+                    {(isYearly ? plan.yearlyPrice : plan.monthlyPrice) === "0" ? (
+                      <span className="text-4xl font-extrabold text-foreground">
+                        <Trans>Free</Trans>
                       </span>
+                    ) : (isYearly ? plan.yearlyPrice : plan.monthlyPrice) === "Custom" ? (
+                      <span className="text-4xl font-extrabold text-foreground">
+                        <Trans>Custom</Trans>
+                      </span>
+                    ) : (
+                      <>
+                        <span className="text-4xl font-extrabold text-foreground">
+                          {isYearly ? plan.yearlyPrice : plan.monthlyPrice}
+                        </span>
+                        <span className="text-lg text-muted-foreground ml-1">
+                          UZS/{isYearly ? <Trans>year</Trans> : <Trans>month</Trans>}
+                        </span>
+                      </>
                     )}
                   </div>
 

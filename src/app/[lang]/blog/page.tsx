@@ -1,4 +1,3 @@
-import Navigation from "@/app/[lang]/components/Navigation";
 import Link from "next/link";
 import { Trans } from "@lingui/react/macro";
 import { blogPosts, categories } from "@/data/blogPosts";
@@ -9,7 +8,6 @@ export default async function BlogPage({ params }: { params: Promise<{ lang: str
   initLingui(lang);
   return (
     <div className="min-h-screen bg-background">
-      <Navigation />
       <section className="pt-24 pb-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="text-center">
@@ -61,7 +59,7 @@ export default async function BlogPage({ params }: { params: Promise<{ lang: str
                         })}
                       </span>
                       <Link
-                        href={`/blog/${post.id}`}
+                        href={`/${lang}/blog/${post.id}`}
                         className="text-primary hover:text-primary/80 font-medium transition-colors"
                       >
                         <Trans>Read More</Trans> →
@@ -98,22 +96,24 @@ export default async function BlogPage({ params }: { params: Promise<{ lang: str
               .map((post) => (
                 <article
                   key={post.id}
-                  className="bg-background rounded-lg border border-border overflow-hidden hover:shadow-lg transition-shadow"
+                  className="bg-background rounded-2xl border border-border overflow-hidden hover:shadow-lg hover:border-primary/20 transition-all"
                 >
-                  <div className="bg-muted h-48 flex items-center justify-center">
-                    <span className="text-muted-foreground">Blog Post Image</span>
+                  <div className="bg-gradient-to-br from-accent to-muted h-48 flex items-center justify-center">
+                    <svg className="w-12 h-12 text-primary/30" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
+                    </svg>
                   </div>
                   <div className="p-6">
-                    <div className="flex items-center gap-4 mb-3">
-                      <span className="bg-secondary text-foreground px-2 py-1 rounded text-xs font-medium">
+                    <div className="flex items-center gap-3 mb-3">
+                      <span className="bg-accent text-accent-foreground px-2.5 py-0.5 rounded-full text-xs font-medium">
                         {post.category}
                       </span>
                       <span className="text-muted-foreground text-xs">{post.readTime}</span>
                     </div>
-                    <h3 className="text-xl font-bold text-foreground mb-3 line-clamp-2">{post.title}</h3>
-                    <p className="text-muted-foreground mb-4 line-clamp-3">{post.excerpt}</p>
+                    <h3 className="text-lg font-bold text-foreground mb-2 line-clamp-2">{post.title}</h3>
+                    <p className="text-muted-foreground text-sm mb-4 line-clamp-3">{post.excerpt}</p>
                     <div className="flex items-center justify-between">
-                      <span className="text-sm text-muted-foreground">
+                      <span className="text-xs text-muted-foreground">
                         {new Date(post.date).toLocaleDateString("en-US", {
                           year: "numeric",
                           month: "short",
@@ -121,8 +121,8 @@ export default async function BlogPage({ params }: { params: Promise<{ lang: str
                         })}
                       </span>
                       <Link
-                        href={`/blog/${post.id}`}
-                        className="text-primary hover:text-primary/80 font-medium text-sm transition-colors"
+                        href={`/${lang}/blog/${post.id}`}
+                        className="text-primary hover:text-primary/80 font-semibold text-sm transition-colors"
                       >
                         <Trans>Read More</Trans> →
                       </Link>

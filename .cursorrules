@@ -1,0 +1,78 @@
+# website.shopgrid — Marketing Website
+
+## Project Overview
+
+This is the **public-facing marketing website** for ShopGrid — built with Next.js 15. It includes landing pages, feature highlights, pricing, blog, and contact pages. Fully internationalized (en, ru, uz) using dynamic `[lang]` route segments.
+
+## Tech Stack
+
+- **Framework:** Next.js 15 with App Router and Turbopack (`next dev --turbopack`)
+- **Runtime:** React 19, TypeScript
+- **Styling:** Tailwind CSS v4 (via `@tailwindcss/postcss`, PostCSS pipeline)
+- **i18n:** Lingui v5 with `@lingui/swc-plugin` for Next.js integration
+- **Locale Detection:** `negotiator` package in middleware for Accept-Language header parsing
+- **Package Manager:** yarn
+
+## Project Structure
+
+```
+src/
+├── app/
+│   ├── [lang]/                  # i18n dynamic route segment
+│   │   ├── layout.tsx           # Root layout with Navigation, Footer, LinguiClientProvider
+│   │   ├── page.tsx             # Landing page
+│   │   ├── LinguiClientProvider.tsx  # Client-side Lingui provider
+│   │   ├── components/          # Shared components (Navigation, Footer, LanguageSwitcher, FloatingTelegramButton)
+│   │   ├── blog/                # Blog listing + [id] dynamic detail pages
+│   │   ├── contact/             # Contact page
+│   │   ├── features/            # Features page
+│   │   └── pricing/             # Pricing page
+│   ├── appRouterI18n.ts         # Server-side i18n instance setup
+│   ├── initLingui.ts            # Lingui initialization helper
+│   ├── globals.css              # Global Tailwind styles
+│   └── favicon.ico
+├── data/
+│   └── blogPosts.ts             # Blog post data
+└── middleware.ts                 # Locale detection/redirect middleware
+locales/                         # Lingui message catalogs (en, ru, uz)
+lingui.config.ts                 # Lingui configuration
+```
+
+## Architecture Patterns
+
+### Internationalization (i18n)
+- **Route-based:** All pages under `src/app/[lang]/` receive the locale param
+- **Server-side:** `getI18nInstance(lang)` and `initLingui(lang)` used in layouts/pages for SSR
+- **Client-side:** `LinguiClientProvider` hydrates the client with the correct locale and messages
+- **Middleware:** `src/middleware.ts` detects browser locale via `negotiator` and redirects to `/{lang}/` prefix
+- **Static generation:** `generateStaticParams()` generates pages for all locales (en, ru, uz)
+- **Catalog management:** Run `yarn po` to extract and compile translations
+
+### Rendering Strategy
+- Primarily **static (SSG)** with `generateStaticParams` for locale variants
+- Server Components by default; `"use client"` only where needed (LinguiClientProvider, interactive components)
+- Metadata generated server-side with `generateMetadata` for SEO
+
+### Layout Composition
+Root layout (`[lang]/layout.tsx`) wraps all pages:
+`html > body > LinguiClientProvider > Navigation + {children} + Footer + FloatingTelegramButton`
+
+## Coding Standards
+
+- **App Router:** Use Next.js App Router conventions — `page.tsx`, `layout.tsx`, `loading.tsx`, `error.tsx`
+- **Server Components first:** Default to Server Components; add `"use client"` only for interactivity
+- **Imports:** Use `@/` path alias (maps to `src/`)
+- **Styling:** Tailwind utility classes; global styles in `globals.css`
+- **i18n:** All user-facing text must use Lingui `i18n._()` (server) or `<Trans>` / `t` macro (client). After changes, run `yarn po`
+- **SEO:** Every page must export `generateMetadata` with localized title, description, and OpenGraph tags
+- **Images:** Use `next/image` for optimized image loading
+- **Links:** Use `next/link` for client-side navigation; always include `/{lang}/` prefix in paths
+
+## Forbidden Patterns
+
+- DO NOT use Pages Router (`pages/` directory) — this is App Router only
+- DO NOT skip locale prefix in links — all internal links must include `/{lang}/`
+- DO NOT add `"use client"` to components that don't need browser APIs
+- DO NOT hardcode text strings — all user-facing content must go through Lingui
+- DO NOT use inline `<style>` tags — Tailwind only
+- DO NOT import from `next/router` — use `next/navigation` in App Router

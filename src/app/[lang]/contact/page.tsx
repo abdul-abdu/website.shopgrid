@@ -1,6 +1,5 @@
 "use client";
 
-import Navigation from "@/app/[lang]/components/Navigation";
 import Link from "next/link";
 import { Trans } from "@lingui/react/macro";
 import { useLingui } from "@lingui/react";
@@ -47,8 +46,6 @@ export default function ContactPage() {
 
   return (
     <div className="min-h-screen bg-background">
-      <Navigation />
-
       {/* Hero Section */}
       <section className="pt-24 pb-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">

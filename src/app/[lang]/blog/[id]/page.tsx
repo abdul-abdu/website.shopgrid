@@ -1,16 +1,20 @@
-import Navigation from "@/app/[lang]/components/Navigation";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { blogPosts, getBlogPostById, getRelatedBlogPosts } from "@/data/blogPosts";
+import {
+  blogPosts,
+  getBlogPostById,
+  getRelatedBlogPosts,
+} from "@/data/blogPosts";
 
 interface BlogPostPageProps {
   params: Promise<{
+    lang: string;
     id: string;
   }>;
 }
 
 export default async function BlogPostPage({ params }: BlogPostPageProps) {
-  const { id } = await params;
+  const { lang, id } = await params;
   const post = getBlogPostById(id);
 
   if (!post) {
@@ -21,23 +25,27 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
 
   return (
     <div className="min-h-screen bg-background">
-      <Navigation />
-
       {/* Hero Section */}
-      <section className="pt-24 pb-16 px-4 sm:px-6 lg:px-8">
+      <section className="pt-28 pb-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
-            <div className="flex items-center justify-center gap-4 mb-6">
-              <span className="bg-primary text-primary-foreground px-3 py-1 rounded-full text-sm font-medium">
+            <div className="flex items-center justify-center gap-3 mb-6">
+              <span className="bg-accent text-accent-foreground px-3 py-1 rounded-full text-sm font-medium">
                 {post.category}
               </span>
-              <span className="text-muted-foreground text-sm">{post.readTime}</span>
+              <span className="text-muted-foreground text-sm">
+                {post.readTime}
+              </span>
             </div>
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground mb-6">{post.title}</h1>
-            <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto">{post.excerpt}</p>
-            <div className="flex items-center justify-center gap-6 text-sm text-muted-foreground">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
+              {post.title}
+            </h1>
+            <p className="text-lg text-muted-foreground mb-8 max-w-3xl mx-auto">
+              {post.excerpt}
+            </p>
+            <div className="flex items-center justify-center gap-4 text-sm text-muted-foreground">
               <span>By {post.author}</span>
-              <span>•</span>
+              <span className="w-1 h-1 rounded-full bg-muted-foreground" />
               <span>
                 {new Date(post.date).toLocaleDateString("en-US", {
                   year: "numeric",
@@ -48,26 +56,42 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             </div>
           </div>
 
-          {/* Featured Image Placeholder */}
-          <div className="bg-muted h-64 sm:h-80 lg:h-96 rounded-lg flex items-center justify-center mb-12">
-            <span className="text-muted-foreground">Featured Article Image</span>
+          <div className="bg-gradient-to-br from-accent to-muted h-64 sm:h-80 rounded-2xl flex items-center justify-center mb-12">
+            <svg
+              className="w-16 h-16 text-primary/20"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={1}
+                d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"
+              />
+            </svg>
           </div>
         </div>
       </section>
 
       {/* Article Content */}
       <section className="pb-16 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-4xl mx-auto">
-          <div className="prose prose-lg max-w-none prose-headings:text-foreground prose-p:text-foreground prose-li:text-foreground prose-strong:text-foreground">
+        <div className="max-w-3xl mx-auto">
+          <div className="prose prose-lg max-w-none prose-headings:text-foreground prose-p:text-foreground/80 prose-li:text-foreground/80 prose-strong:text-foreground prose-h2:text-2xl prose-h2:font-bold prose-h2:mt-10 prose-h2:mb-4 prose-p:leading-relaxed">
             <div dangerouslySetInnerHTML={{ __html: post.content }} />
           </div>
 
           {/* Tags */}
           <div className="mt-12 pt-8 border-t border-border">
-            <h3 className="text-lg font-semibold text-foreground mb-4">Tags</h3>
+            <h3 className="text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-4">
+              Tags
+            </h3>
             <div className="flex flex-wrap gap-2">
               {post.tags.map((tag) => (
-                <span key={tag} className="bg-secondary text-foreground px-3 py-1 rounded-full text-sm">
+                <span
+                  key={tag}
+                  className="bg-accent text-accent-foreground px-3 py-1 rounded-full text-sm"
+                >
                   #{tag}
                 </span>
               ))}
@@ -75,20 +99,14 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           </div>
 
           {/* Navigation */}
-          <div className="mt-12 pt-8 border-t border-border">
+          <div className="mt-10 pt-8 border-t border-border">
             <div className="flex justify-between items-center">
               <Link
-                href="/blog"
+                href={`/${lang}/blog`}
                 className="text-primary hover:text-primary/80 font-medium transition-colors flex items-center gap-2"
               >
                 ← Back to Blog
               </Link>
-              <div className="flex gap-4">
-                <button className="text-muted-foreground hover:text-foreground transition-colors">
-                  Share on Telegram
-                </button>
-                <button className="text-muted-foreground hover:text-foreground transition-colors">Copy Link</button>
-              </div>
             </div>
           </div>
         </div>
@@ -98,44 +116,53 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-secondary">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-foreground mb-4">Related Articles</h2>
-            <p className="text-xl text-muted-foreground">More insights to help grow your business</p>
+            <h2 className="text-2xl font-bold text-foreground mb-2">
+              Related Articles
+            </h2>
+            <p className="text-muted-foreground">
+              More insights to help grow your business
+            </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {relatedPosts.map((relatedPost) => (
               <article
                 key={relatedPost.id}
-                className="bg-background rounded-lg border border-border overflow-hidden hover:shadow-lg transition-shadow"
+                className="bg-background rounded-2xl border border-border overflow-hidden hover:shadow-lg hover:border-primary/20 transition-all"
               >
-                <div className="bg-muted h-48 flex items-center justify-center">
-                  <span className="text-muted-foreground">Blog Post Image</span>
+                <div className="bg-gradient-to-br from-accent to-muted h-40 flex items-center justify-center">
+                  <svg
+                    className="w-10 h-10 text-primary/20"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={1}
+                      d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"
+                    />
+                  </svg>
                 </div>
-                <div className="p-6">
-                  <div className="flex items-center gap-4 mb-3">
-                    <span className="bg-secondary text-foreground px-2 py-1 rounded text-xs font-medium">
+                <div className="p-5">
+                  <div className="flex items-center gap-3 mb-2">
+                    <span className="bg-accent text-accent-foreground px-2 py-0.5 rounded-full text-xs font-medium">
                       {relatedPost.category}
                     </span>
-                    <span className="text-muted-foreground text-xs">{relatedPost.readTime}</span>
-                  </div>
-                  <h3 className="text-xl font-bold text-foreground mb-3 line-clamp-2">{relatedPost.title}</h3>
-                  <p className="text-muted-foreground mb-4 line-clamp-3">{relatedPost.excerpt}</p>
-                  <div className="flex items-center justify-between">
-                    <span className="text-sm text-muted-foreground">
-                      {new Date(relatedPost.date).toLocaleDateString("en-US", {
-                        year: "numeric",
-                        month: "short",
-                        day: "numeric",
-                      })}
+                    <span className="text-muted-foreground text-xs">
+                      {relatedPost.readTime}
                     </span>
-                    <Link
-                      href={`/blog/${relatedPost.id}`}
-                      className="text-primary hover:text-primary/80 font-medium text-sm transition-colors"
-                    >
-                      Read More
-                    </Link>
-                    →
                   </div>
+                  <h3 className="text-base font-bold text-foreground mb-2 line-clamp-2">
+                    {relatedPost.title}
+                  </h3>
+                  <Link
+                    href={`/${lang}/blog/${relatedPost.id}`}
+                    className="text-primary hover:text-primary/80 font-semibold text-sm transition-colors"
+                  >
+                    Read More →
+                  </Link>
                 </div>
               </article>
             ))}
