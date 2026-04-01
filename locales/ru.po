@@ -42,7 +42,7 @@ msgstr "О нас"
 
 #: src/app/[lang]/page.tsx:254
 msgid "Admin Dashboard"
-msgstr ""
+msgstr "Панель администратора"
 
 #: src/app/[lang]/features/page.tsx:213
 msgid "AI-Powered Product Tools"
@@ -54,11 +54,11 @@ msgstr "Все права защищены."
 
 #: src/app/[lang]/page.tsx:241
 msgid "Automatic totals with tax & shipping. Pay with Payme, Click, or cash on delivery"
-msgstr ""
+msgstr "Автоматические итоги с налогами и доставкой. Платите через Payme, Click или наличными при доставке"
 
 #: src/app/[lang]/page.tsx:208
 msgid "Beautiful, native Telegram experience for your customers and a powerful dashboard for you"
-msgstr ""
+msgstr "Удобный нативный интерфейс Telegram для ваших клиентов и мощная панель управления для вас"
 
 #: src/app/[lang]/contact/page.tsx:138
 msgid "Billing Question"
@@ -79,7 +79,7 @@ msgstr "Карьера"
 
 #: src/app/[lang]/pricing/page.tsx:89
 msgid "Choose the perfect plan for your business. Start free and upgrade as you grow. No hidden fees."
-msgstr ""
+msgstr "Выберите идеальный план для вашего бизнеса. Начните бесплатно и обновляйтесь по мере роста. Без скрытых платежей."
 
 #: src/app/[lang]/components/Footer.tsx:146
 #: src/app/[lang]/contact/page.tsx:286
@@ -132,11 +132,11 @@ msgstr "Создайте свой магазин сейчас"
 
 #: src/app/[lang]/pricing/page.tsx:167
 msgid "Custom"
-msgstr ""
+msgstr "Индивидуальный"
 
 #: src/app/[lang]/page.tsx:225
 msgid "Customers browse products with images, prices, and add to cart — all inside Telegram"
-msgstr ""
+msgstr "Клиенты просматривают товары с изображениями и ценами и добавляют в корзину — всё внутри Telegram"
 
 #: src/app/[lang]/contact/page.tsx:403
 msgid "Do you offer refunds?"
@@ -161,7 +161,7 @@ msgstr "Все, что вам нужно для продажи в Telegram"
 
 #: src/app/[lang]/features/page.tsx:25
 msgid "Everything you need to turn your Telegram channel into a thriving online store. Built for the Telegram ecosystem with modern tools and AI-powered features."
-msgstr ""
+msgstr "Всё, что нужно для превращения вашего Telegram-канала в процветающий интернет-магазин. Создан для экосистемы Telegram с современными инструментами и функциями на базе ИИ."
 
 #: src/app/[lang]/blog/page.tsx:170
 msgid "Explore our most-read articles and guides"
@@ -187,7 +187,7 @@ msgstr "Особенности"
 #: src/app/[lang]/pricing/page.tsx:163
 #: src/app/[lang]/pricing/page.tsx:287
 msgid "Free"
-msgstr ""
+msgstr "Бесплатно"
 
 #: src/app/[lang]/contact/page.tsx:396
 msgid "Free users can list up to 10 products, Starter users up to 100, and Pro users have unlimited products."
@@ -226,11 +226,11 @@ msgstr "Получайте самые свежие советы, новости 
 
 #: src/app/[lang]/page.tsx:275
 msgid "Get your Telegram store up and running in 3 simple steps"
-msgstr ""
+msgstr "Запустите свой Telegram-магазин за 3 простых шага"
 
 #: src/app/[lang]/features/page.tsx:283
 msgid "Handle payments, generate invoices, and manage finances in one place"
-msgstr ""
+msgstr "Принимайте платежи, создавайте счета и управляйте финансами в одном месте"
 
 #: src/app/[lang]/contact/page.tsx:60
 msgid "Have questions about Shopgrid? Need help setting up your store? We're here to help you succeed with your Telegram business."
@@ -266,11 +266,11 @@ msgstr "Присоединяйтесь к сообществу"
 
 #: src/app/[lang]/page.tsx:406
 msgid "Join hundreds of businesses already using Shopgrid to sell products directly through Telegram."
-msgstr ""
+msgstr "Присоединяйтесь к сотням компаний, которые уже используют Shopgrid для продажи товаров через Telegram."
 
 #: src/app/[lang]/pricing/page.tsx:445
 msgid "Join hundreds of businesses already using Shopgrid. Start your free trial today."
-msgstr ""
+msgstr "Присоединяйтесь к сотням компаний, которые уже используют Shopgrid. Начните бесплатную пробную версию сегодня."
 
 #: src/app/[lang]/contact/page.tsx:249
 msgid "Join our Telegram group for instant support and community discussions."
@@ -294,7 +294,7 @@ msgstr "Позвольте искусственному интеллекту в�
 
 #: src/app/[lang]/features/page.tsx:168
 msgid "Manage your entire business from one powerful dashboard. Track sales, manage inventory, and analyze performance with real-time data."
-msgstr ""
+msgstr "Управляйте всем бизнесом из одной мощной панели. Отслеживайте продажи, управляйте запасами и анализируйте показатели с данными в реальном времени."
 
 #: src/app/[lang]/contact/page.tsx:152
 msgid "Message *"
@@ -302,7 +302,7 @@ msgstr "Сообщение *"
 
 #: src/app/[lang]/pricing/page.tsx:175
 msgid "month"
-msgstr ""
+msgstr "месяц"
 
 #: src/app/[lang]/pricing/page.tsx:102
 msgid "Monthly"
@@ -359,7 +359,7 @@ msgstr "политика конфиденциальности"
 
 #: src/app/[lang]/pricing/page.tsx:293
 msgid "Pro"
-msgstr ""
+msgstr "Pro"
 
 #: src/app/[lang]/components/Footer.tsx:75
 msgid "Product"
@@ -367,7 +367,7 @@ msgstr "Продукт"
 
 #: src/app/[lang]/page.tsx:222
 msgid "Product Catalog"
-msgstr ""
+msgstr "Каталог товаров"
 
 #: src/app/[lang]/contact/page.tsx:350
 msgid "Quick answers to common questions"
@@ -393,7 +393,7 @@ msgstr "Готовы ли вы начать свой бизнес в Telegram?"
 
 #: src/app/[lang]/page.tsx:329
 msgid "Real businesses growing with Shopgrid on Telegram"
-msgstr ""
+msgstr "Реальные компании растут с Shopgrid в Telegram"
 
 #: src/app/[lang]/contact/page.tsx:326
 msgid "Response Time"
@@ -433,7 +433,7 @@ msgstr "Отправка..."
 
 #: src/app/[lang]/features/page.tsx:44
 msgid "Shopgrid uses Telegram Web App SDK for native integration with features like main button controls, settings button, back button handling, and theme synchronization."
-msgstr ""
+msgstr "Shopgrid использует Telegram Web App SDK для нативной интеграции с такими функциями, как управление главной кнопкой, кнопкой настроек, обработкой кнопки «Назад» и синхронизацией темы."
 
 #: src/app/[lang]/pricing/page.tsx:83
 msgid "Simple, Transparent <0>Pricing</0>"
@@ -445,7 +445,7 @@ msgstr "Просто зайдите на наш Telegram-бот @shopgrid_bot и
 
 #: src/app/[lang]/page.tsx:238
 msgid "Smart Cart & Checkout"
-msgstr ""
+msgstr "Умная корзина и оформление заказа"
 
 #: src/app/[lang]/features/page.tsx:364
 #: src/app/[lang]/pricing/page.tsx:459
@@ -482,7 +482,7 @@ msgstr "Техническая поддержка"
 
 #: src/app/[lang]/page.tsx:23
 msgid "Telegram Mini App"
-msgstr ""
+msgstr "Telegram Mini App"
 
 #: src/app/[lang]/contact/page.tsx:246
 msgid "Telegram Support"
@@ -510,15 +510,15 @@ msgstr "Самый простой способ продавать товары �
 
 #: src/app/[lang]/page.tsx:257
 msgid "Track revenue, manage orders, and monitor your store performance in real-time"
-msgstr ""
+msgstr "Отслеживайте доход, управляйте заказами и контролируйте работу магазина в реальном времени"
 
 #: src/app/[lang]/page.tsx:72
 msgid "Trusted by <0>500+</0> businesses"
-msgstr ""
+msgstr "Доверяют <0>500+</0> компаний"
 
 #: src/app/[lang]/page.tsx:35
 msgid "Turn your Telegram channel into a full online store. Accept payments with Payme & Click, manage orders, and grow your business — all inside Telegram."
-msgstr ""
+msgstr "Превратите свой Telegram-канал в полноценный интернет-магазин. Принимайте платежи через Payme и Click, управляйте заказами и развивайте бизнес — всё внутри Telegram."
 
 #: src/app/[lang]/contact/page.tsx:369
 msgid "We support all major credit cards, PayPal, and various local payment methods depending on your region."
@@ -546,7 +546,7 @@ msgstr "Что включено:"
 
 #: src/app/[lang]/pricing/page.tsx:175
 msgid "year"
-msgstr ""
+msgstr "год"
 
 #: src/app/[lang]/pricing/page.tsx:121
 msgid "Yearly"
@@ -566,4 +566,4 @@ msgstr "Ваше имя"
 
 #: src/app/[lang]/contact/page.tsx:113
 msgid "your@email.com"
-msgstr ""
+msgstr "ваш@email.com"
